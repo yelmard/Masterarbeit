@@ -1,0 +1,33 @@
+\BOOKMARK [0][-]{chapter.0}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.1.1}{The Structure of Matter}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Quantum Chromodynamics}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Phase diagram and Quark-Gluon-Plasma}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Physics of particle collisions \(pp, A-A col.\)}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{\(charged particle\) pT spectra and nuclear modification factor}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{Monte Carlo simulations}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{The ALICE Experiment at CERN}{}% 9
+\BOOKMARK [1][-]{section.2.1}{The LHC}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{ALICE}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{ITS}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{TPC}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Track reconstruction}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{V0 detectors}{section.2.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Analysis}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Data sample}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Trigger and event selection}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{Trigger overview}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Selection of events}{section.3.2}% 20
+\BOOKMARK [1][-]{section.3.3}{Track selection}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Corrections}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.4.1}{Overall normalization}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.2}{Tracking efficiency and acceptance}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.3}{Contamination by secondary particles}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.4}{Transverse momentum resolution}{section.3.4}% 26
+\BOOKMARK [1][-]{section.3.5}{Implementation of the corrections}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.6}{Systematic uncertainties}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.6.1}{Track selection}{section.3.6}% 29
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 30
+\BOOKMARK [0][-]{section*.24}{Appendices}{}% 31
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix}{}% 32
+\BOOKMARK [1][-]{section.1.A.1}{Tracking efficiency}{Appendix.1.A}% 33

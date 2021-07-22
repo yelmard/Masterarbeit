@@ -1,0 +1,1 @@
+L arxiu ProbeseiteMitOriginalenTabelenREADME conte el Probeseite (tfg fins a comensar el capitol SysUnsicherheiten) amb les taules originals i no fancy.

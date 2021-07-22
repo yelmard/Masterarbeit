@@ -1,0 +1,30 @@
+\babel@toc {german}{}
+\babel@toc {german}{}
+\contentsline {chapter}{\numberline {0}Einleitung}{1}{chapter.0}
+\contentsline {chapter}{\numberline {1}Physikalische Grundlagen}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Das Standardmodell der Teilchenphysik}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Die starke Wechselwirkung}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Quark-Gluon-Plasma}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}Hadronenproduktion in Proton-Proton-Kollisionen}{9}{section.1.4}
+\contentsline {section}{\numberline {1.5}Monte-Carlo-Simulationen}{12}{section.1.5}
+\contentsline {chapter}{\numberline {2}Experimenteller Aufbau}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}LHC}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}ALICE}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Inner Tracking System}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Time Projection Chamber}{16}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}Analyse}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Datenauswahl}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Auswahlkriterien}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Selektion der Ereignisse}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Spurselektion}{21}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Korrekturen}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nachweiseffizienz geladener Teilchen}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Absch\IeC {\"a}tzung der Kontamination durch Sekund\IeC {\"a}rteilchen}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}$p_{\mathrm {T}}$-Aufl\IeC {\"o}sung}{28}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Normierung auf die Anzahl unelastischer Kollisionen}{31}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Ergebnisse}{33}{section.3.4}
+\contentsline {section}{\numberline {3.5}Systematische Unsicherheiten}{35}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Auswahlkriterien}{36}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}\textit {Matching efficiency}}{38}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Zusammenfassung}{39}{chapter.4}
+\contentsline {chapter}{Literaturverzeichnis}{}{chapter.4}
