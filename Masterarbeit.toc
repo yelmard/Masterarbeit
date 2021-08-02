@@ -19,24 +19,24 @@
 \contentsline {chapter}{\numberline {3}Analysis}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Data sample}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Trigger and event selection}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Trigger overview}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Selection of events}{9}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Track selection}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Corrections}{13}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Overall normalization}{14}{subsection.3.4.1}
-\contentsline {subsubsection}{Trigger efficiency}{15}{equation.3.4.1}
-\contentsline {subsubsection}{Vertex reconstruction efficiency}{16}{equation.3.4.2}
-\contentsline {subsubsection}{Signal loss correction}{16}{equation.3.4.3}
-\contentsline {subsection}{\numberline {3.4.2}Tracking efficiency and acceptance}{17}{subsection.3.4.2}
-\contentsline {subsubsection}{Dependency on the particle type}{21}{figure.caption.13}
-\contentsline {subsection}{\numberline {3.4.3}Contamination by secondary particles}{24}{subsection.3.4.3}
-\contentsline {subsubsection}{Secondary scaling}{24}{figure.caption.15}
-\contentsline {subsection}{\numberline {3.4.4}Transverse momentum resolution}{28}{subsection.3.4.4}
-\contentsline {subsubsection}{Calculation of the correction factor}{31}{equation.3.4.16}
-\contentsline {section}{\numberline {3.5}Implementation of the corrections}{33}{section.3.5}
-\contentsline {section}{\numberline {3.6}Systematic uncertainties}{35}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Track selection}{36}{subsection.3.6.1}
-\contentsline {chapter}{\numberline {4}Results}{38}{chapter.4}
-\contentsline {chapter}{Appendices}{39}{section*.24}
-\contentsline {chapter}{\numberline {A}Appendix}{40}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Tracking efficiency}{40}{section.1.A.1}
+\contentsline {subsection}{\numberline {3.2.1}Trigger}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Selection of events}{10}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Track selection}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Corrections}{11}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Overall normalization}{13}{subsection.3.4.1}
+\contentsline {subsubsection}{Trigger efficiency}{13}{equation.3.4.1}
+\contentsline {subsubsection}{Vertex reconstruction efficiency}{14}{equation.3.4.2}
+\contentsline {subsubsection}{Signal loss correction}{14}{equation.3.4.3}
+\contentsline {subsection}{\numberline {3.4.2}Tracking efficiency and acceptance}{15}{subsection.3.4.2}
+\contentsline {subsubsection}{Dependency on the particle type}{18}{figure.caption.12}
+\contentsline {subsection}{\numberline {3.4.3}Contamination by secondary particles}{21}{subsection.3.4.3}
+\contentsline {subsubsection}{Secondary scaling}{22}{figure.caption.14}
+\contentsline {subsection}{\numberline {3.4.4}Transverse momentum resolution}{25}{subsection.3.4.4}
+\contentsline {subsubsection}{Calculation of the correction factor}{28}{equation.3.4.12}
+\contentsline {section}{\numberline {3.5}Implementation of the corrections}{31}{section.3.5}
+\contentsline {section}{\numberline {3.6}Systematic uncertainties}{31}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Track selection}{33}{subsection.3.6.1}
+\contentsline {chapter}{\numberline {4}Results}{34}{chapter.4}
+\contentsline {chapter}{Appendices}{35}{section*.23}
+\contentsline {chapter}{\numberline {A}Appendix}{36}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Tracking efficiency}{36}{section.1.A.1}
