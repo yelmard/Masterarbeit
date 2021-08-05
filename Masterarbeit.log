@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  2 AUG 2021 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  5 AUG 2021 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1837,83 +1837,89 @@ File: Plots/DCAdistributions.pdf Graphic file (type pdf)
 <use Plots/DCAdistributions.pdf>
 Package pdftex.def Info: Plots/DCAdistributions.pdf  used on input line 464.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [22 <./Plots/DCAdistributions.pdf, page is rotated 90 degrees>] [23]
-<Plots/Pulls_Pt0_Mult0.pdf, id=809, 569.12625pt x 550.055pt>
+
+Overfull \hbox (3.51262pt too wide) in paragraph at lines 468--472
+\T1/pplx/m/n/12 In the up-per panel of Fig-ure []3.9[], the DCA$[]$ dis-tri-bu-
+tion for pp col-li-sions recorded
+ []
+
+[22 <./Plots/DCAdistributions.pdf, page is rotated 90 degrees>] [23]
+<Plots/secscalingfactors.pdf, id=807, 569.12625pt x 547.04375pt>
+File: Plots/secscalingfactors.pdf Graphic file (type pdf)
+<use Plots/secscalingfactors.pdf>
+Package pdftex.def Info: Plots/secscalingfactors.pdf  used on input line 478.
+(pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
+ [24 <./Plots/secscalingfactors.pdf, page is rotated 90 degrees>]
+<Plots/Pulls_Pt0_Mult0.pdf, id=861, 569.12625pt x 547.04375pt>
 File: Plots/Pulls_Pt0_Mult0.pdf Graphic file (type pdf)
 <use Plots/Pulls_Pt0_Mult0.pdf>
-Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 484.
-(pdftex.def)             Requested size: 312.9803pt x 302.506pt.
- [24 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>] [25]
-<Plots/Sagitta.png, id=870, 1204.5pt x 643.40375pt>
+Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 491.
+(pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
+ [25 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>]
+<Plots/Sagitta.png, id=912, 1204.5pt x 643.40375pt>
 File: Plots/Sagitta.png Graphic file (type png)
 <use Plots/Sagitta.png>
-Package pdftex.def Info: Plots/Sagitta.png  used on input line 507.
+Package pdftex.def Info: Plots/Sagitta.png  used on input line 512.
 (pdftex.def)             Requested size: 199.16928pt x 106.38283pt.
-<Plots/ptReso2D.pdf, id=871, 569.12625pt x 552.0625pt>
+<Plots/ptReso2D.pdf, id=913, 569.12625pt x 550.055pt>
 File: Plots/ptReso2D.pdf Graphic file (type pdf)
 <use Plots/ptReso2D.pdf>
-Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 518.
-(pdftex.def)             Requested size: 341.43306pt x 331.20634pt.
-<Plots/ptReso1D.pdf, id=872, 569.12625pt x 552.0625pt>
+Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 523.
+(pdftex.def)             Requested size: 341.43306pt x 330.00197pt.
+<Plots/ptReso1D.pdf, id=914, 569.12625pt x 552.0625pt>
 File: Plots/ptReso1D.pdf Graphic file (type pdf)
 <use Plots/ptReso1D.pdf>
-Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 524.
+Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 529.
 (pdftex.def)             Requested size: 341.43306pt x 331.20634pt.
  [26 <./Plots/Sagitta.png>] [27 <./Plots/ptReso2D.pdf, page is rotated 90 degre
-es>]
-<Plots/reso2dim.pdf, id=938, 569.12625pt x 547.04375pt>
+es>] [28 <./Plots/ptReso1D.pdf, page is rotated 90 degrees>]
+<Plots/reso2dim.pdf, id=1027, 569.12625pt x 547.04375pt>
 File: Plots/reso2dim.pdf Graphic file (type pdf)
 <use Plots/reso2dim.pdf>
-Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 538.
+Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 543.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/fitfunc.pdf, id=939, 569.12625pt x 547.04375pt>
+<Plots/fitfunc.pdf, id=1028, 569.12625pt x 547.04375pt>
 File: Plots/fitfunc.pdf Graphic file (type pdf)
 <use Plots/fitfunc.pdf>
-Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 539.
+Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 544.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/scaledcov.pdf, id=940, 569.12625pt x 547.04375pt>
+<Plots/scaledcov.pdf, id=1029, 569.12625pt x 547.04375pt>
 File: Plots/scaledcov.pdf Graphic file (type pdf)
 <use Plots/scaledcov.pdf>
-Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 540.
+Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 545.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/probabilitydist.pdf, id=941, 569.12625pt x 547.04375pt>
+<Plots/probabilitydist.pdf, id=1030, 569.12625pt x 547.04375pt>
 File: Plots/probabilitydist.pdf Graphic file (type pdf)
 <use Plots/probabilitydist.pdf>
-Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 541.
+Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 546.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/ptrescorrpp.pdf, id=942, 569.12625pt x 547.04375pt>
-File: Plots/ptrescorrpp.pdf Graphic file (type pdf)
-<use Plots/ptrescorrpp.pdf>
-Package pdftex.def Info: Plots/ptrescorrpp.pdf  used on input line 547.
+<Plots/ptrescorrppPbPb.pdf, id=1031, 569.12625pt x 547.04375pt>
+File: Plots/ptrescorrppPbPb.pdf Graphic file (type pdf)
+<use Plots/ptrescorrppPbPb.pdf>
+Package pdftex.def Info: Plots/ptrescorrppPbPb.pdf  used on input line 552.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
+ [29 <./Plots/reso2dim.pdf, page is rotated 90 degrees> <./Plots/fitfunc.pdf, p
+age is rotated 90 degrees> <./Plots/scaledcov.pdf, page is rotated 90 degrees> 
+<./Plots/probabilitydist.pdf, page is rotated 90 degrees>]
+[30 <./Plots/ptrescorrppPbPb.pdf, page is rotated 90 degrees>] [31] [32]
+
+LaTeX Warning: Reference `sysUnc' on page 33 undefined on input line 624.
 
 
-LaTeX Warning: Reference `ptrescorrPbPb' on page 28 undefined on input line 553
-.
-
-[28 <./Plots/ptReso1D.pdf, page is rotated 90 degrees>] [29 <./Plots/reso2dim.p
-df, page is rotated 90 degrees> <./Plots/fitfunc.pdf, page is rotated 90 degree
-s> <./Plots/scaledcov.pdf, page is rotated 90 degrees> <./Plots/probabilitydist
-.pdf, page is rotated 90 degrees>] [30 <./Plots/ptrescorrpp.pdf, page is rotate
-d 90 degrees>] [31]
-
-LaTeX Warning: Reference `sysUnc' on page 32 undefined on input line 618.
+LaTeX Warning: Reference `Raa' on page 33 undefined on input line 624.
 
 
-LaTeX Warning: Reference `Raa' on page 32 undefined on input line 618.
-
-
-Overfull \hbox (0.15663pt too wide) in paragraph at lines 617--619
+Overfull \hbox (0.15663pt too wide) in paragraph at lines 623--625
 \T1/pplx/m/n/12 To de-ter-mine the in-di-vid-ual con-tri-bu-tions, each nom-i-n
 al track re-quire-ment listed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 623--625
 
  []
 
-[32] [33]
+[33]
 Chapter 4.
 [34
 
@@ -1925,24 +1931,24 @@ Appendix A.
 [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 667.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 667.
  (./Masterarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 667.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 667.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 96D4662246C91453F9187B7A25D8B844;2199.
+(rerunfilecheck)             Checksum: 241C98483C002A70313848AF30DCD993;2199.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 667.
  ) 
 Here is how much of TeX's memory you used:
- 30170 strings out of 492982
- 576184 string characters out of 6134896
- 650102 words of memory out of 5000000
- 33074 multiletter control sequences out of 15000+600000
+ 30176 strings out of 492982
+ 576396 string characters out of 6134896
+ 650429 words of memory out of 5000000
+ 33078 multiletter control sequences out of 15000+600000
  622711 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,93p,10384b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1960,10 +1966,10 @@ blic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx10
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (40 pages, 722004 bytes).
+Output written on Masterarbeit.pdf (40 pages, 754529 bytes).
 PDF statistics:
- 1334 PDF objects out of 1440 (max. 8388607)
- 803 compressed objects within 9 object streams
- 111 named destinations out of 1000 (max. 500000)
- 468 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 820 compressed objects within 9 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
