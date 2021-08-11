@@ -557,6 +557,7 @@ The smearing is carried out through a simulation that uses as input a sample of 
 After determining the shape of $\sigma(1/p_\text{T})$, the smearing is performed. In this process, tracks are simulated and distributed according to a power-law fit of the true \pt distributions in the range $7 \leq p_\text{T} \leq 100$ GeV/$c$. These are then transformed in $1/p_\text{T}$ distributions. Moreover, each $1/p_\text{T}$ value is smeared according to a Gaussian with a standard deviation generated randomly in respect of the probability function of $\sigma(1/p_\text{T})$. This standard deviation is first adjusted with an additive factor extracted from an evaluation of the polynomial $n(1/p_\text{T})$ as re-correction for the above mentioned suppression of statistical fluctuations (see bottom-left panel of Figure \ref{4plots} ). Finally, the smeared $1/p_\text{T}$ distribution is re-converted in a \pt spectrum.\\
 The \pt resolution correction factors are calculated by means of the quotient of the original simulated \pt spectrum and the smeared one. In Figure \ref{ptrescorrppPbPb}, the resulting correction factors for the analyzed pp and for central, semi-central and peripheral Pb-Pb collisions are respectively illustrated. In pp collisions, the correction factor falls monotonically and the effect finds its maximum at the largest \pt interval with a percentage value of around 1.2\%. On the other hand, the Pb-Pb results behave similarly as in the pp data collection. Nevertheless, a centrality dependence of the correction factors is observed which reflects that the impact of the correction on the \pt distributions increases with this quantity.
 \section{Implementation of the corrections}
+\label{secCorr}
 The analysis strategies presented in the previous sections aim to mitigate the effects derived from the detector response that distorts the data sample. As already mentioned, the track-level corrections affect the shape of the primary track distribution $N(p_\text{T})$. The corrected primary track distribution $N_\text{corr}(p_\text{T})$ can be defined as follows (cite mknichel):
 \begin{equation}
 \begin{split}
@@ -568,15 +569,23 @@ N_\text{corr}(p_\text{T}) = & N(p_\text{T}) \times c_\epsilon(p_\text{T}) \cdot 
 where $c_\text{i}$ represent the contributions of each correction: $c_\epsilon(p_\text{T})$ is the tracking efficiency, $c_\text{par comp}(p_\text{T})$ the particle composition, $c_\text{cont}(p_\text{T})$ the secondary contamination, $c_\text{sec sca}(p_\text{T})$ the secondary scaling, $c_\text{reso}(p_\text{T})$ the \pt resolution and  $c_\text{sig loss}(p_\text{T})$, which is only applied in pp collisions. Once the corrections are implemented, the \pt distributions can be calculated in respect of the definitions discussed in Section (cite theory section).
 According to the definition of the nuclear modification factor, the results in pp collisions are expressed in form of a differential cross section: 
 \begin{equation}
+\label{EqdiffCross}
 \dfrac{\text{d}^2 \sigma^\text{pp}_\text{ch} }{\text{d}\eta \text{d}p_\text{T}} = \sigma_\text{vis} \cdot \dfrac{1}{N_\text{INEL}} \cdot \dfrac{\text{d}^2 N^\text{pp}	_\text{corr}}{\text{d}\eta \text{d}p_\text{T}}
 \end{equation}
 where $N_\text{INEL}$ corresponds to the total number of inelastic events and $\sigma_\text{vis}$ the visible inelastic cross section as already explained in Section \ref{Norm}. 
 In the case of Pb-Pb collisions, the physical quantity used for the determination of nuclear modification factors is the invariant yield and it is calculated as follows
 \begin{equation}
+\label{Eqinyield}
 \dfrac{\text{d}^2 N^\text{Pb-Pb}_\text{ch}}{\text{d}\eta \text{d}p_\text{T}} = \dfrac{1}{N_\text{INEL}} \cdot \dfrac{\text{d}^2 N^\text{Pb-Pb}_\text{corr}}{\text{d}\eta \text{d}p_\text{T}}
 \end{equation}
-
 \section{Systematic uncertainties}
+The \pt distributions as well as the nuclear modification factors are affected by uncertainties product of inaccuracies in the measurement instruments or assumptions made in the analysis approaches. These are the so-called systematic uncertainties. In this thesis, the source of systematics considered arises from the track selection criteria. However, other sources of systematic uncertainties have been identified in previous measurements of nuclear modification factors (cite paper). In this chapter, these sources will be described and its impact on the \pt distributions approximated.
+\subsection{Track selection} 
+As in Section \ref{TrackSelection} explained, the track selection has been develop in the course of the years and validated through cross-checks. Nevertheless, the choice of the selection criteria, yet justified via these studies, is subjected to a systematic uncertainty. Each criterion contributes independently of the rest to the systematic uncertainties of the \pt spectra and as a consequence of the nuclear modification factors. For this reason, the total value of $\sigma^\text{sys}_\text{tot}$ is calculated via the root sum squared method:
+\begin{equation}
+\sigma^\text{sys}_\text{sel,tot} = \sqrt{\sum_{\text{i}}\sigma^\text{sys}_\text{sel,i}}
+\end{equation} 
+To determine the individual contributions, each nominal track requirement listed in Table \ref{tab:Cuts} is varied twice within a range in which it is believed to be physically meaningful. The variations, listed in Table \ref{tab:curVar}, correspond to the maximum and the minimum of this range. Next, the fully corrected \pt distributions are recalculated implementing one variation at a time. These \pt distributions are compared to the nominal one by means of a ratio, obtaining as result two ratios for each track cut, with the exception of the required hit in the SPD. Finally, the two ratios are evaluated in each \pt interval and the largest deviation from the nominal \pt spectrum between the both of them is assumed as systematic uncertainty in the corresponding \pt interval. The resulting systematic uncertainties corresponding to each track cut can be then presented as function of the transverse momentum. The total systematic uncertainty is calculated subsequently applying a root sum squared in each \pt interval among the individual systematic uncertainties. In Figure \ref{SysUncSpec}, the individual and the combined contributions to the systematic uncertainty are given for pp as well as for central, semi-central and peripheral Pb-Pb collisions. This same approach is also applied to determine the systematic uncertainties that affect the nuclear modification factors as seen in Figure \ref{SysUncRaa} for these same centrality classes.
 \begin{table}[tb!]
 \renewcommand{\arraystretch}{1.5}
 %\rowcolor{bodyBlue}
@@ -613,51 +622,129 @@ $\chi^2$ TPC constrained track vs. global track  & $\leq 36$ & $\leq 25$ & $\leq
 \caption{Variations for the standard track selection criteria used for the calculation of the systematic uncertainties.}
 \label{tab:curVar}
 \end{table}
-The \pt distributions as well as the nuclear modification factors are affected by uncertainties product of inaccuracies in the measurement instruments or assumptions made during the development of the analysis approaches. These are the so-called systematic uncertainties. In this thesis, the source of systematics considered arises from the track selection criteria. However, other sources of systematic uncertainties have been identified in a previous analysis of nuclear modification factors (cite paper). In this chapter, these sources will be described and its impact on the \pt distributions approximated.
-\subsection{Track selection} 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.495\textwidth]{Plots/SysUncpp.pdf}  
-\includegraphics[width=0.495\textwidth]{Plots/SysUncpp.pdf}  
-\includegraphics[width=0.495\textwidth]{Plots/SysUncpp.pdf}  
-
-\caption{Contributions of the track selection criteria to the sysmtetic uncertainty for pp collisions.}
-\label{SysUncpp}
+\includegraphics[width=0.495\textwidth]{Plots/SysUncPbPbcent.pdf}  
+\includegraphics[width=0.495\textwidth]{Plots/SysUncPbPbsemi.pdf}  
+\includegraphics[width=0.495\textwidth]{Plots/SysUncPbPbperi.pdf}  
+\caption{Relative systematic uncertainties of the \pt spectra from the track selection for pp as well as central, semi-central and peripheral Pb-Pb collisions.}
+\label{SysUncSpec}
 \end{figure}
 \begin{figure}[H]
 \centering
-\caption{Contributions of the track selection criteria to the sysmtetic uncertainty for central Pb-Pb collisions.}
-\label{SysUncpp}
+\includegraphics[width=0.495\textwidth]{Plots/SysUncRaacent.pdf}  
+\includegraphics[width=0.495\textwidth]{Plots/SysUncRaasemi.pdf}  
+\includegraphics[width=0.495\textwidth]{Plots/SysUncRaaperi.pdf}  
+\caption{Relative systematic uncertainties of $R_\text{PbPb}$ from the track selection for central, semi-central  and peripheral Pb-Pb collisions.}
+\label{SysUncRaa}
 \end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=9cm]{Plots/SysUncPbPbperi.pdf}  
-\caption{Contributions of the track selection criteria to the sysmtetic uncertainty for peripheral Pb-Pb collisions.}
-\label{SysUncpp}
-\end{figure}
-As in Section \ref{TrackSelection} explained, the track selection has been develop in the course of the years and validated through cross-checks. Nevertheless, the choice of the selection criteria, yet justified via these studies, is subjected to a systematic uncertainty. Each criterion contributes independently of the rest to the systematic uncertainties of the \pt spectra, and as a consequence, of the nuclear modification factors. For this reason, the total value of $\sigma^\text{sys}_\text{tot}$ is calculated via the root sum squared method:
-\begin{equation}
-\sigma^\text{sys}_\text{sel,tot} = \sqrt{\sum_{\text{i}}\sigma^\text{sys}_\text{sel,i}}
-\end{equation} 
-To determine the individual contributions, each nominal track requirement listed in Table \ref{tab:Cuts} is varied twice within a range in which it is believed to be physically meaningful. The variations correspond to the maximum and the minimum of this range. The mentioned variations are listed in Table \ref{tab:curVar}. Next, the calculation of fully corrected \pt distributions is repeated by performing one variation at a time. These \pt distributions are compared to the nominal one by means of a ratio, obtaining as result two ratios for each track cut, with the exception of the required hit in the SPD. Finally, the two ratios are evaluated in each \pt interval and the largest deviation from the nominal \pt spectrum between the both of them is assumed as systematic uncertainty in the corresponding \pt interval. Thereby, the systematic uncertainty corresponding to each track cut is presented as function of \pt. The total systematic uncertainty is calculated subsequently applying a root sum squared in each \pt interval among the individual systematic uncertainties. This is given in Figures \ref{SysUncpp}, \ref{SysUncPbPbcent}, \ref{SysUncPbPbsemi} and \ref{SysUncPbPbperi} for pp as well as for central and peripheral Pb-Pb collisions. This same approach is also applied to determine the systematic uncertainties that affect the nuclear modification factors as seen in Figure \ref{Raa}.
 \subsection{Other sources} 
-In previous analyses of inclusive charged particles (cite paper), other sources of systematic uncertainties on the \pt distributions besides the track selection have been identified. In this section, an overview about the corresponding sources as well as an approximation of the contributions will be given. In Table \ref{tab:OtherSources}, the relative systematic uncertainties for \pt spectra in pp and Pb-Pb collisions are shown. 
+In previous measurements of inclusive charged particles (cite paper), other sources of systematic uncertainties on the \pt distributions besides the track selection have been identified. In this section, an overview about the corresponding sources as well as an approximation of the contributions will be given. In Table \ref{tab:othersources}, the relative systematic uncertainties for \pt spectra in pp and Pb-Pb collisions are shown. 
 \begin{enumerate} 
-\item The tracking efficiency is approximated using the MC information. Nevertheless, the simulations are not able  to reproduce all detector effects. The related systematic uncertainty is calculated by means of a quantity that compares global tracks with tracks reconstructed only with the TPC, the matching efficiency. The maximum deviation of the ratio of the matching efficiency in MC to the one in data is used to estimate the corresponding uncertainty.
-\item There are three distinct contributions to the systematic uncertainty of the particle composition correction (cite Patrick). For their calculation, variations of parameters of the approach are carried out and the maximal deviation between the nominal correction and the one resulting from each variation is assigned as systematic uncertainty. The total systematic uncertainty is determined by summing in quadrature the individual contributions which are summarized in the following:
+\item The tracking efficiency is approximated using the MC information. Nevertheless, the simulations are not able  to reproduce fully the detector effects. The related systematic uncertainty is calculated by means of a quantity that compares global tracks with tracks reconstructed only with the TPC: the matching efficiency. The maximum deviation from unity of the ratio of the matching efficiency in MC to the one in data is used as uncertainty.
+\begin{table}[tb!]
+\renewcommand{\arraystretch}{1.5}
+%\rowcolor{bodyBlue}
+\centering
+\begin{tabular}{l c c}
+\toprule
+\rowcolor{headerBlue}  \textbf{Source of uncertainty} &  \textbf{pp}  &   \textbf{Pb-Pb}  \\
+\midrule
+\midrule
+Matching efficiency & $0.0$-$1.1\%$  & $0.2$-$1.2\%$\\
+Particle composition & $0.2$-$2.4\%$ & $0.2$-$2.0\%$\\
+Secondary scaling & $0.0$-$2.8\%$ & $0.0$-$4.5\%$ \\
+Vertex and trigger efficiency & $0.0$-$1.2\%$ & - \\
+Material budget & $0.1$-$0.9\%$ & $0.1$-$0.9\%$ \\
+Anchor point & - & $0.06$-$3.5\%$ \\
+\bottomrule
+\end{tabular}
+\caption{Contributions to the total systematic uncertainty on \pt distributions in pp and Pb-Pb collisions calculated in the previous ALICE measurements (cite paper).}
+\label{tab:othersources}
+\end{table}
+\item There are three distinct contributions to the systematic uncertainty of the particle composition correction (cite Patrick). For their calculation, variations in the approach are performed and the maximal deviation between the nominal correction and the one resulting from each variation is assigned as systematic uncertainty. The total systematic uncertainty is determined by summing in quadrature the individual contributions which are summarized in the following:
 \begin{itemize}
 \item The first contribution is related to measured production rates of identified charged particles. The measured particle spectrum of each particle type are varied between the extreme values of the range of its systematic uncertainty.
 \item Another contribution arises from the extrapolation of the \pt spectra at low \pt used in the correction. The contribution is determined by recalculating the correction using alternative parametrizations as well as different fit ranges.
-\item The last contribution originates from the fact that the relative particle abundances are assumed to be flat for $p_\text{T} > 8$. For the calculation, this range is varied and the corresponding deviations determined.  
+\item The last contribution originates from the fact that the relative particle abundances are assumed to be flat for $p_\text{T} > 10$ GeV/$c$. For the calculation of the systematic uncertainty, this range is varied and the resulting corrections are compared to the nominal one.  
 \end{itemize} 
-\item The contribution to the systematic uncertainties o the scaling of the secondary contamination is recalculated by using the same approach with a different number of templates and assigning the deviation between both results as uncertainty.
-\item In the published results, the vertex and trigger efficiency were combined and the half of this value was assigned as systematic uncertainty.
-\item The approximation of the effects of the detector material by the the detector response simulator is related to a systematic uncertainty. Through an analysis of photon conversions, the related systematic uncertainty is found varying the material budged in the simulation by $\pm 4.5\%$.
-\item The determination of anchor point is also subject to an uncertainty established in the publication at  $0.5\%$. After adjusting the centrality boundaries with this uncertainty, \pt spectra are recalculated and the maximum deviation from the nominal one is assigned as the corresponding contribution.
-
+\item The contribution to the systematic uncertainties of the scaling of the secondary contamination is determined by comparing the correction factors that result from a two and a three template fit. The deviation between both results is assigned as uncertainty.
+\item In the published results, the vertex and trigger efficiency is combined and the half of this value was assigned as systematic uncertainty.
+\item MC simulations attempt to approximate the impact of the detector material on the data.  is related to a systematic uncertainty. Through an analysis of photon conversions, the related systematic uncertainty is found varying the material budged in the simulation by $\pm 4.5\%$.
+\item In Pb-Pb collisions, the anchor point defines the scale of the centrality. Its determination is subject to an uncertainty of $0.5\%$. After adjusting the centrality boundaries with this uncertainty, \pt spectra are recalculated and the maximum deviation from the nominal one is assigned as the corresponding contribution.
 \end{enumerate} 
 
-\chapter{Results}
+\section{Results}
+\subsection{Differential cross section in pp collisions}
+After implementing the corrections as described in Section \ref{secCorr}, the differential cross section (see Equation \ref{EqdiffCross}) for inclusive charged particles in inelastic pp collisions at $\sqrt{s}=5.02$ TeV measured by ALICE is presented in Figure \ref{diffCross}. The statistical uncertainties are shown in error bars, while the boxes represent the systematic uncertainties. In the figure, the previous ALICE measurement (cite note) is also shown. It can be observed that the presented work reaches a transverse momentum of $p_\text{T} = 100$ GeV/$c$ which improves the previous one of $p_\text{T} = 50$ GeV/$c$. This development is explained by the higher statistics that the used data sets offer in comparison to the ones of 2015. Another feature of this result is the improved granularity of the \pt intervals which are finer in the mid and high \pt region than in the previous results. These two aspects facilitate a better precision of the nuclear modification factors as it will be seen in the following sections. 
+\begin{figure}[tb!]
+\centering
+\includegraphics[width=12cm]{Plots/diffCrosspp.pdf}  
+\caption{Differential cross section for inclusive charged-particle production in pp collisions at $\sqrt{s}=5.02$ TeV measured by ALICE.}
+\label{diffCross}
+\end{figure}
+\subsection{Invariant yield in Pb-Pb collisions}
+The invariant yields (see Equation \ref{Eqinyield}) for inclusive charged particles for nine centrality classes in inelastic Pb-Pb collisions measured by ALICE at $\sqrt{s}_\text{NN}=5.02$ TeV are given in Figure \ref{invYield}. Statistical and systematic uncertainties are represented with error bars and boxes, respectively. In the same figure, the results of the previous ALICE measurement are also shown. The shape of the \pt distributions present a dependency on the centrality. In central collisions, the invariant yields present a more pronounced slope for \pt > 3 GeV/$c$ than the one in peripheral collisions. With decreasing centrality the shape becomes more similar to the one in pp. Once determined the fully \pt distributions in pp and in Pb-Pb collisions, the calculation of nuclear modification factors is performed.
+\begin{figure}[tb!]
+\centering
+\includegraphics[width=12cm]{Plots/invYieldPbPb.pdf}  
+\caption{Differential cross section for inclusive charged-particle production in pp collisions at $\sqrt{s}=5.02$ TeV measured by ALICE.}
+\label{invYield}
+\end{figure}
+\subsection{Nuclear modification factors}
+As introduced in Section (cite section), the energy density produced in ultra-relativistic heavy-ion collisions  allows the creation of a quark-gluon plasma, a deconfined state of strongly interacting matter. In this medium, high \pt partons experience an energy loss which leads to a suppression of the particle production as it was suggested by J.D. Bjorken. The study of this suppression can therefore provide insight on the properties of the quark-gluon plasma. In the presented work, the suppression is analyzed through a comparison of the charged-particle production in heavy-ion collisions with a reference measurement in pp collisions, where no quark-gluon plasma is created. The nuclear modification factor $R_\text{PbPb} $ offers the possibility to quantify the suppression via:
+\begin{equation}
+R_\text{PbPb} = \dfrac{1}{T_\text{AA}} \dfrac{\text{d}^2 N^\text{Pb-Pb}_\text{ch} / \text{d}\eta \text{d}p_\text{T}}{\text{d}^2 \sigma^\text{pp}_\text{ch} / \text{d}\eta \text{d}p_\text{T}}
+\end{equation}
+where the numerator represents the invariant yield in Pb-Pb collisions and the denominator the differential cross section in pp collisions. Note that the differential cross section is scaled with the nuclear overlap function $\langle T_\text{PbPb} \rangle$. This quantity is calculated through a Glaber Monte Carlo simulation (cite ana note) and the values used in this work can be found in Table \ref{tab:taa}.\\
+\begin{table}[tb!]
+\renewcommand{\arraystretch}{1.5}
+%\rowcolor{bodyBlue}
+\centering
+\begin{tabular}{l c c}
+\toprule
+\rowcolor{headerBlue}  \textbf{Centrality} &  \textbf{$\mathbf{\langle T_\text{PbPb} \rangle}$ ($\text{mb}^{-1}$)}  &   \textbf{sys. Unc. } ($\text{mb}^{-1}$) \\
+\midrule
+\midrule
+0-5\% & $26.08$  & $0.176$\\
+5-10\% & $20.44$ & $0.166$\\
+10-20\% & $14.4$ & $0.126$ \\
+20-30\% & $8.767$ & $0.101$ \\
+30-40\% & $5.086$ & $0.0814$ \\
+40-50\% & $2.747$ & $0.0486$\\
+50-60\% & $1.352$ & $0.0309$\\
+60-70\% & $0.5992$ & $0.0158$\\
+70-80\% & $0.2385$ & $0.00552$ \\
+\bottomrule
+\end{tabular}
+\caption{Nuclear overlap function with the corresponding systematic uncertainties for Pb-Pb collisions at $\sqrt{s}_\text{NN}=5.02$ TeV in the studied centrality classes obtained with a Glauber Monte Carlo simulation (cite ana note).}
+\label{tab:taa}
+\end{table}
+In Figure \ref{Raa}, the nuclear modification factors for inclusive charged particles in inelastic Pb-Pb collisions measured by ALICE at $\sqrt{s}_\text{NN}=5.02$ TeV are presented in nine centrality classes. Here, the statistical uncertainties are denoted as error bars and the systematic uncertainties as boxes. As expected, the nuclear modification factors are characterized by a strong dependency on the centrality. In the same figure, the previous measurements of nuclear modification factors in ALICE are also shown with open markers. The results of this work are in good agreement with the ones of the previous measurement. There is an improvement of the \pt reach as well as of the granularity of the intervals for \pt > 3.2 GeV/$c$. This is result of the increased statistics in pp collisions which allows a better precision in the corresponding \pt distribution as described before.\\
+A significant suppression of the charged-particle production is observed in all centrality collisions. In the low \pt region, the suppression decreases slightly until the $R_\text{PbPb}$ reach values of around 0.45 in the most central collisions and around 0.8 in peripheral collisions. Following this peak, the maximal suppression occurs at around \pt = 6.5 GeV/$c$ for the first four centrality classes, before the nuclear modification factors rise gradually and reach values between around 0.5 and 0.6. Towards peripheral collisions, the fall after the peak is less pronounced, the factors grow more steeply and the values of $R_\text{PbPb}$ approach unity at high transverse momenta. 
+\begin{figure}[tb!]
+\centering
+\includegraphics[width=12cm]{Plots/Raa.pdf}  
+\caption{Nuclear modification factors for nine centrality classes in Pb-Pb collisions at $\sqrt{s}=5.02$ TeV measured by ALICE.}
+\label{Raa}
+\end{figure}
+For a better understanding of the suppression in heavy-ion collisions, several theoretical models make predictions about the behavior of physical observables in the strong interacting medium at LHC energies. It is worth comparing the obtained results with the theoretical models in order to proof their validity in more detail. To this end, the nuclear modification factor for the most central collisions obtained in this work is compared to four different theoretical formalisms. The calculations of these models make use of the pQCD factorization of the cross section for hadron production. This leads to a description of the suppression in the high \pt region of the $R_\text{PbPb}$. The formalisms of each of the approaches are presented briefly in the following (cite paper):
+\begin{figure}[tb!]
+\centering
+\includegraphics[width=10	cm]{Plots/Raatheo.png}  
+\caption{Nuclear modification factors for the most central collisions in Pb-Pb collisions at $\sqrt{s}=5.02$ TeV compared to four theoretical prediction as well as to the previous ALICE publication.}
+\label{raatheo}
+\end{figure}
+
+\begin{enumerate}
+\item \textbf{Bianchi:} This model (cite here) describes the production of high \pt hadrons with the fragmentation of hard partons. Employing an approach based on the hydrodynamics, the energy loss of the parton is characterized by the medium transport coefficient $\hat q$ scaled with the temperature dependent entropy density and the energy scale of jets within the medium.
+\item \textbf{CUJET 3.0:} Here (cite here), the pQCD formalism provided by its predecessor CUJET 2.0 is upgraded with a description of soft processes by means of a suppression of quark and gluon degrees of freedom and the emergence of chromomagnetic monopoles. In the framework, the model prediction is calculated by varying the QCD running coupling and the ratio of electric to magnetic screening scales.
+\item $\mathbf{SCET}_\mathbf{G}$-\textbf{Vitev:} This description (cite here) of inclusive particle production and the suppression consists in the soft-collinear effective theory (SCET) extended with the coupling of Glauber gluons exchanges to the medium. In the calculations, cold nuclear matter effects and parton-to-hadron fragmentation functions are taken into account.
+\item \textbf{Djordjevic:} The last approach predicts the energy loss with pQCD calculations in a dynamical QCD medium of finite spatial extent. In the framework of the $\text{SCET}_\text{G}$ model, the prediction discusses the radiative and the collisional energy loss of the partons integrating cold nuclear effects.
+\end{enumerate}
+In Figure \ref{raatheo}, the measured nuclear modification factor for a centrality of 0-5\% is compared to the four theoretical models as well as to the previous ALICE measurement. The upper and lower boundaries of the models represent the uncertainty which is calculated through variation of different parameters of the approach. The measured nuclear modification factors are overall consistent with the theoretical models. Nevertheless, the Bianchi model overestimates the suppression in the \pt range 10 < \pt < 18 GeV/$c$.
+
 \begin{appendices}
 \chapter{Appendix}
 \section{Tracking efficiency}

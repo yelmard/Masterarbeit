@@ -35,9 +35,12 @@
 \contentsline {subsubsection}{Calculation of the correction factor}{29}{equation.3.4.12}
 \contentsline {section}{\numberline {3.5}Implementation of the corrections}{31}{section.3.5}
 \contentsline {section}{\numberline {3.6}Systematic uncertainties}{32}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Track selection}{33}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.1}Track selection}{32}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Other sources}{35}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {4}Results}{37}{chapter.4}
-\contentsline {chapter}{Appendices}{38}{section*.27}
-\contentsline {chapter}{\numberline {A}Appendix}{39}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Tracking efficiency}{39}{section.1.A.1}
+\contentsline {section}{\numberline {3.7}Results}{37}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Differential cross section in pp collisions}{37}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Invariant yield in Pb-Pb collisions}{37}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Nuclear modification factors}{38}{subsection.3.7.3}
+\contentsline {chapter}{Appendices}{44}{section*.32}
+\contentsline {chapter}{\numberline {A}Appendix}{45}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Tracking efficiency}{45}{section.1.A.1}
