@@ -11,27 +11,28 @@
 \BOOKMARK [1][-]{section.2.2}{ALICE}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.1}{ITS}{section.2.2}% 12
 \BOOKMARK [2][-]{subsection.2.2.2}{TPC}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.3}{Track reconstruction}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.4}{V0 detectors}{section.2.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Analysis}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Data sample}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{Trigger and event selection}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Trigger}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Selection of events}{section.3.2}% 20
-\BOOKMARK [1][-]{section.3.3}{Track selection}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.4}{Corrections}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.4.1}{Overall normalization}{section.3.4}% 23
-\BOOKMARK [2][-]{subsection.3.4.2}{Tracking efficiency and acceptance}{section.3.4}% 24
-\BOOKMARK [2][-]{subsection.3.4.3}{Contamination by secondary particles}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.4}{Transverse momentum resolution}{section.3.4}% 26
-\BOOKMARK [1][-]{section.3.5}{Implementation of the corrections}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.6}{Systematic uncertainties}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.6.1}{Track selection}{section.3.6}% 29
-\BOOKMARK [2][-]{subsection.3.6.2}{Other sources}{section.3.6}% 30
-\BOOKMARK [1][-]{section.3.7}{Results}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.7.1}{Differential cross section in pp collisions}{section.3.7}% 32
-\BOOKMARK [2][-]{subsection.3.7.2}{Invariant yield in Pb-Pb collisions}{section.3.7}% 33
-\BOOKMARK [2][-]{subsection.3.7.3}{Nuclear modification factors}{section.3.7}% 34
-\BOOKMARK [0][-]{section*.32}{Appendices}{}% 35
-\BOOKMARK [0][-]{Appendix.1.A}{Appendix}{}% 36
-\BOOKMARK [1][-]{section.1.A.1}{Tracking efficiency}{Appendix.1.A}% 37
+\BOOKMARK [2][-]{subsection.2.2.3}{V0 detectors}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{Track reconstruction}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.5}{Centrality determination}{section.2.2}% 16
+\BOOKMARK [0][-]{chapter.3}{Analysis}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Data sample}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Trigger and event selection}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Trigger}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Selection of events}{section.3.2}% 21
+\BOOKMARK [1][-]{section.3.3}{Track selection}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.4}{Corrections}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.4.1}{Overall normalization}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.2}{Tracking efficiency and acceptance}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.3}{Contamination by secondary particles}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.4}{Transverse momentum resolution}{section.3.4}% 27
+\BOOKMARK [1][-]{section.3.5}{Implementation of the corrections}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.6}{Systematic uncertainties}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.6.1}{Track selection}{section.3.6}% 30
+\BOOKMARK [2][-]{subsection.3.6.2}{Other sources}{section.3.6}% 31
+\BOOKMARK [1][-]{section.3.7}{Results}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.7.1}{Differential cross section in pp collisions}{section.3.7}% 33
+\BOOKMARK [2][-]{subsection.3.7.2}{Invariant yield in Pb-Pb collisions}{section.3.7}% 34
+\BOOKMARK [2][-]{subsection.3.7.3}{Nuclear modification factors}{section.3.7}% 35
+\BOOKMARK [0][-]{section*.35}{Appendices}{}% 36
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix}{}% 37
+\BOOKMARK [1][-]{section.1.A.1}{Tracking efficiency}{Appendix.1.A}% 38

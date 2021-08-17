@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  13 AUG 2021 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  18 AUG 2021 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,256 +1766,278 @@ Chapter 2.
 [6
 
 ]
-Chapter 3.
-[7
+<Plots/LHC.png, id=317, 2184.16pt x 1189.44376pt>
+File: Plots/LHC.png Graphic file (type png)
+<use Plots/LHC.png>
+Package pdftex.def Info: Plots/LHC.png  used on input line 211.
+(pdftex.def)             Requested size: 341.43306pt x 185.92273pt.
+<Plots/Alice.png, id=320, 1927.2pt x 1104.125pt>
+File: Plots/Alice.png Graphic file (type png)
+<use Plots/Alice.png>
+Package pdftex.def Info: Plots/Alice.png  used on input line 225.
+(pdftex.def)             Requested size: 426.79134pt x 244.50877pt.
+ [7 <./Plots/LHC.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 231--236
 
-] [8]
-<Plots/fiducialAcc.png, id=321, 934.49126pt x 640.3925pt>
+ []
+
+[9 <./Plots/Alice.png>]
+<Plots/ALICETPC.png, id=340, 708.6475pt x 541.02126pt>
+File: Plots/ALICETPC.png Graphic file (type png)
+<use Plots/ALICETPC.png>
+Package pdftex.def Info: Plots/ALICETPC.png  used on input line 246.
+(pdftex.def)             Requested size: 341.43306pt x 260.66963pt.
+ [10] [11 <./Plots/ALICETPC.png>] [12]
+Chapter 3.
+[13
+
+] [14]
+<Plots/fiducialAcc.png, id=366, 934.49126pt x 640.3925pt>
 File: Plots/fiducialAcc.png Graphic file (type png)
 <use Plots/fiducialAcc.png>
-Package pdftex.def Info: Plots/fiducialAcc.png  used on input line 245.
+Package pdftex.def Info: Plots/fiducialAcc.png  used on input line 291.
 (pdftex.def)             Requested size: 341.43306pt x 233.98071pt.
- [9 <./Plots/fiducialAcc.png>]
-<Plots/uncorrectedSpectra.pdf, id=332, 538.01pt x 739.76375pt>
+ [15 <./Plots/fiducialAcc.png>]
+<Plots/uncorrectedSpectra.pdf, id=376, 538.01pt x 739.76375pt>
 File: Plots/uncorrectedSpectra.pdf Graphic file (type pdf)
 <use Plots/uncorrectedSpectra.pdf>
-Package pdftex.def Info: Plots/uncorrectedSpectra.pdf  used on input line 325.
+Package pdftex.def Info: Plots/uncorrectedSpectra.pdf  used on input line 371.
 (pdftex.def)             Requested size: 284.52756pt x 391.22632pt.
 
-Overfull \hbox (5.46552pt too wide) in paragraph at lines 329--332
+Overfull \hbox (5.46552pt too wide) in paragraph at lines 375--378
 \T1/pplx/m/n/12 In Fig-ure []3.2[], the un-cor-rected $\OML/zplm/m/it/12 p[]$ \
 T1/pplx/m/n/12 de-pen-dent dis-tri-bu-tions of the pro-duced charged
  []
 
-LaTeX Font Info:    Try loading font information for TS1+pplx on input line 333
+LaTeX Font Info:    Try loading font information for TS1+pplx on input line 379
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-) [10] [11] [12 <./Plots/uncorrectedSpectra.pdf>] [13]
-<Plots/signalLossFAST.pdf, id=402, 569.12625pt x 547.04375pt>
+) [16] [17] [18 <./Plots/uncorrectedSpectra.pdf>] [19]
+<Plots/signalLossFAST.pdf, id=445, 569.12625pt x 547.04375pt>
 File: Plots/signalLossFAST.pdf Graphic file (type pdf)
 <use Plots/signalLossFAST.pdf>
-Package pdftex.def Info: Plots/signalLossFAST.pdf  used on input line 378.
+Package pdftex.def Info: Plots/signalLossFAST.pdf  used on input line 424.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [14 <./Plots/signalLossFAST.pdf, page is rotated 90 degrees>]
-<Plots/trckEffpp.pdf, id=453, 569.12625pt x 547.04375pt>
+ [20 <./Plots/signalLossFAST.pdf, page is rotated 90 degrees>]
+<Plots/trckEffpp.pdf, id=497, 569.12625pt x 547.04375pt>
 File: Plots/trckEffpp.pdf Graphic file (type pdf)
 <use Plots/trckEffpp.pdf>
-Package pdftex.def Info: Plots/trckEffpp.pdf  used on input line 391.
+Package pdftex.def Info: Plots/trckEffpp.pdf  used on input line 437.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [15 <./Plots/trckEffpp.pdf, page is rotated 90 degrees>]
-<Plots/trckEffPbPb1.pdf, id=504, 538.01pt x 739.76375pt>
+ [21 <./Plots/trckEffpp.pdf, page is rotated 90 degrees>]
+<Plots/trckEffPbPb1.pdf, id=547, 538.01pt x 739.76375pt>
 File: Plots/trckEffPbPb1.pdf Graphic file (type pdf)
 <use Plots/trckEffPbPb1.pdf>
-Package pdftex.def Info: Plots/trckEffPbPb1.pdf  used on input line 405.
+Package pdftex.def Info: Plots/trckEffPbPb1.pdf  used on input line 451.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
-<Plots/trckEffPbPb2.pdf, id=509, 538.01pt x 739.76375pt>
+<Plots/trckEffPbPb2.pdf, id=552, 538.01pt x 739.76375pt>
 File: Plots/trckEffPbPb2.pdf Graphic file (type pdf)
 <use Plots/trckEffPbPb2.pdf>
-Package pdftex.def Info: Plots/trckEffPbPb2.pdf  used on input line 433.
+Package pdftex.def Info: Plots/trckEffPbPb2.pdf  used on input line 479.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
 
-[16] [17 <./Plots/trckEffPbPb1.pdf>]
-<Plots/5TeVMonash13_TrkEff_without-91972.pdf, id=571, 569.12625pt x 550.055pt>
+[22] [23 <./Plots/trckEffPbPb1.pdf>]
+<Plots/5TeVMonash13_TrkEff_without-91972.pdf, id=614, 569.12625pt x 550.055pt>
 File: Plots/5TeVMonash13_TrkEff_without-91972.pdf Graphic file (type pdf)
 <use Plots/5TeVMonash13_TrkEff_without-91972.pdf>
 Package pdftex.def Info: Plots/5TeVMonash13_TrkEff_without-91972.pdf  used on i
-nput line 442.
+nput line 488.
 (pdftex.def)             Requested size: 211.25961pt x 204.18022pt.
-<Plots/5TeVMonash13_Abundances-91973.pdf, id=572, 569.12625pt x 550.055pt>
+<Plots/5TeVMonash13_Abundances-91973.pdf, id=615, 569.12625pt x 550.055pt>
 File: Plots/5TeVMonash13_Abundances-91973.pdf Graphic file (type pdf)
 <use Plots/5TeVMonash13_Abundances-91973.pdf>
 Package pdftex.def Info: Plots/5TeVMonash13_Abundances-91973.pdf  used on input
- line 443.
+ line 489.
 (pdftex.def)             Requested size: 211.25961pt x 204.18022pt.
- [18 <./Plots/trckEffPbPb2.pdf>] [19 <./Plots/5TeVMonash13_TrkEff_without-91972
+ [24 <./Plots/trckEffPbPb2.pdf>] [25 <./Plots/5TeVMonash13_TrkEff_without-91972
 .pdf, page is rotated 90 degrees> <./Plots/5TeVMonash13_Abundances-91973.pdf, p
 age is rotated 90 degrees>]
-<Plots/secCont.pdf, id=721, 569.12625pt x 547.04375pt>
+<Plots/secCont.pdf, id=764, 569.12625pt x 547.04375pt>
 File: Plots/secCont.pdf Graphic file (type pdf)
 <use Plots/secCont.pdf>
-Package pdftex.def Info: Plots/secCont.pdf  used on input line 456.
+Package pdftex.def Info: Plots/secCont.pdf  used on input line 502.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [20]
-<Plots/DCAdistributions.pdf, id=727, 569.12625pt x 547.04375pt>
+ [26]
+<Plots/DCAdistributions.pdf, id=770, 569.12625pt x 547.04375pt>
 File: Plots/DCAdistributions.pdf Graphic file (type pdf)
 <use Plots/DCAdistributions.pdf>
-Package pdftex.def Info: Plots/DCAdistributions.pdf  used on input line 464.
+Package pdftex.def Info: Plots/DCAdistributions.pdf  used on input line 510.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
 
-Overfull \hbox (3.51262pt too wide) in paragraph at lines 468--472
+Overfull \hbox (3.51262pt too wide) in paragraph at lines 514--518
 \T1/pplx/m/n/12 In the up-per panel of Fig-ure []3.9[], the DCA$[]$ dis-tri-bu-
 tion for pp col-li-sions recorded
  []
 
-[21 <./Plots/secCont.pdf, page is rotated 90 degrees>] [22 <./Plots/DCAdistribu
+[27 <./Plots/secCont.pdf, page is rotated 90 degrees>] [28 <./Plots/DCAdistribu
 tions.pdf, page is rotated 90 degrees>]
-<Plots/secscalingfactors.pdf, id=826, 569.12625pt x 547.04375pt>
+<Plots/secscalingfactors.pdf, id=869, 569.12625pt x 547.04375pt>
 File: Plots/secscalingfactors.pdf Graphic file (type pdf)
 <use Plots/secscalingfactors.pdf>
-Package pdftex.def Info: Plots/secscalingfactors.pdf  used on input line 478.
+Package pdftex.def Info: Plots/secscalingfactors.pdf  used on input line 524.
 (pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
- [23 <./Plots/secscalingfactors.pdf, page is rotated 90 degrees>]
-<Plots/Pulls_Pt0_Mult0.pdf, id=879, 569.12625pt x 547.04375pt>
+ [29 <./Plots/secscalingfactors.pdf, page is rotated 90 degrees>]
+<Plots/Pulls_Pt0_Mult0.pdf, id=923, 569.12625pt x 547.04375pt>
 File: Plots/Pulls_Pt0_Mult0.pdf Graphic file (type pdf)
 <use Plots/Pulls_Pt0_Mult0.pdf>
-Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 491.
+Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 537.
 (pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
- [24 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>]
-<Plots/Sagitta.png, id=931, 1204.5pt x 643.40375pt>
+ [30 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>]
+<Plots/Sagitta.png, id=974, 1204.5pt x 643.40375pt>
 File: Plots/Sagitta.png Graphic file (type png)
 <use Plots/Sagitta.png>
-Package pdftex.def Info: Plots/Sagitta.png  used on input line 512.
+Package pdftex.def Info: Plots/Sagitta.png  used on input line 558.
 (pdftex.def)             Requested size: 199.16928pt x 106.38283pt.
-<Plots/ptReso2D.pdf, id=932, 569.12625pt x 550.055pt>
+<Plots/ptReso2D.pdf, id=975, 569.12625pt x 550.055pt>
 File: Plots/ptReso2D.pdf Graphic file (type pdf)
 <use Plots/ptReso2D.pdf>
-Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 522.
+Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 568.
 (pdftex.def)             Requested size: 341.43306pt x 330.00197pt.
-<Plots/ptReso1D.pdf, id=933, 569.12625pt x 552.0625pt>
+<Plots/ptReso1D.pdf, id=976, 569.12625pt x 552.0625pt>
 File: Plots/ptReso1D.pdf Graphic file (type pdf)
 <use Plots/ptReso1D.pdf>
-Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 528.
+Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 574.
 (pdftex.def)             Requested size: 341.43306pt x 331.20634pt.
- [25 <./Plots/Sagitta.png>] [26 <./Plots/ptReso2D.pdf, page is rotated 90 degre
-es>] [27 <./Plots/ptReso1D.pdf, page is rotated 90 degrees>]
-<Plots/reso2dim.pdf, id=1045, 569.12625pt x 547.04375pt>
+ [31 <./Plots/Sagitta.png>] [32 <./Plots/ptReso2D.pdf, page is rotated 90 degre
+es>] [33 <./Plots/ptReso1D.pdf, page is rotated 90 degrees>]
+<Plots/reso2dim.pdf, id=1089, 569.12625pt x 547.04375pt>
 File: Plots/reso2dim.pdf Graphic file (type pdf)
 <use Plots/reso2dim.pdf>
-Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 542.
+Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 588.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/fitfunc.pdf, id=1046, 569.12625pt x 547.04375pt>
+<Plots/fitfunc.pdf, id=1090, 569.12625pt x 547.04375pt>
 File: Plots/fitfunc.pdf Graphic file (type pdf)
 <use Plots/fitfunc.pdf>
-Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 543.
+Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 589.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/scaledcov.pdf, id=1047, 569.12625pt x 547.04375pt>
+<Plots/scaledcov.pdf, id=1091, 569.12625pt x 547.04375pt>
 File: Plots/scaledcov.pdf Graphic file (type pdf)
 <use Plots/scaledcov.pdf>
-Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 544.
+Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 590.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/probabilitydist.pdf, id=1048, 569.12625pt x 547.04375pt>
+<Plots/probabilitydist.pdf, id=1092, 569.12625pt x 547.04375pt>
 File: Plots/probabilitydist.pdf Graphic file (type pdf)
 <use Plots/probabilitydist.pdf>
-Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 545.
+Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 591.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/ptrescorrppPbPb.pdf, id=1049, 569.12625pt x 547.04375pt>
+<Plots/ptrescorrppPbPb.pdf, id=1093, 569.12625pt x 547.04375pt>
 File: Plots/ptrescorrppPbPb.pdf Graphic file (type pdf)
 <use Plots/ptrescorrppPbPb.pdf>
-Package pdftex.def Info: Plots/ptrescorrppPbPb.pdf  used on input line 551.
+Package pdftex.def Info: Plots/ptrescorrppPbPb.pdf  used on input line 597.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [28 <./Plots/reso2dim.pdf, page is rotated 90 degrees> <./Plots/fitfunc.pdf, p
+ [34 <./Plots/reso2dim.pdf, page is rotated 90 degrees> <./Plots/fitfunc.pdf, p
 age is rotated 90 degrees> <./Plots/scaledcov.pdf, page is rotated 90 degrees> 
-<./Plots/probabilitydist.pdf, page is rotated 90 degrees>] [29 <./Plots/ptresco
-rrppPbPb.pdf, page is rotated 90 degrees>] [30]
-<Plots/SysUncpp.pdf, id=1295, 569.12625pt x 547.04375pt>
+<./Plots/probabilitydist.pdf, page is rotated 90 degrees>] [35 <./Plots/ptresco
+rrppPbPb.pdf, page is rotated 90 degrees>] [36]
+<Plots/SysUncpp.pdf, id=1339, 569.12625pt x 547.04375pt>
 File: Plots/SysUncpp.pdf Graphic file (type pdf)
 <use Plots/SysUncpp.pdf>
-Package pdftex.def Info: Plots/SysUncpp.pdf  used on input line 628.
+Package pdftex.def Info: Plots/SysUncpp.pdf  used on input line 674.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbcent.pdf, id=1296, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbcent.pdf, id=1340, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbcent.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbcent.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbcent.pdf  used on input line 629.
+Package pdftex.def Info: Plots/SysUncPbPbcent.pdf  used on input line 675.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbsemi.pdf, id=1297, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbsemi.pdf, id=1341, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbsemi.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbsemi.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbsemi.pdf  used on input line 630.
+Package pdftex.def Info: Plots/SysUncPbPbsemi.pdf  used on input line 676.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbperi.pdf, id=1298, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbperi.pdf, id=1342, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbperi.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbperi.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbperi.pdf  used on input line 631.
+Package pdftex.def Info: Plots/SysUncPbPbperi.pdf  used on input line 677.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
 
-Overfull \hbox (0.15663pt too wide) in paragraph at lines 587--634
+Overfull \hbox (0.15663pt too wide) in paragraph at lines 633--680
 \T1/pplx/m/n/12 To de-ter-mine the in-di-vid-ual con-tri-bu-tions, each nom-i-n
 al track re-quire-ment listed
  []
 
-[31]
-<Plots/SysUncRaacent.pdf, id=1307, 569.12625pt x 547.04375pt>
+[37]
+<Plots/SysUncRaacent.pdf, id=1351, 569.12625pt x 547.04375pt>
 File: Plots/SysUncRaacent.pdf Graphic file (type pdf)
 <use Plots/SysUncRaacent.pdf>
-Package pdftex.def Info: Plots/SysUncRaacent.pdf  used on input line 637.
+Package pdftex.def Info: Plots/SysUncRaacent.pdf  used on input line 683.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncRaasemi.pdf, id=1308, 569.12625pt x 547.04375pt>
+<Plots/SysUncRaasemi.pdf, id=1352, 569.12625pt x 547.04375pt>
 File: Plots/SysUncRaasemi.pdf Graphic file (type pdf)
 <use Plots/SysUncRaasemi.pdf>
-Package pdftex.def Info: Plots/SysUncRaasemi.pdf  used on input line 638.
+Package pdftex.def Info: Plots/SysUncRaasemi.pdf  used on input line 684.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncRaaperi.pdf, id=1309, 569.12625pt x 547.04375pt>
+<Plots/SysUncRaaperi.pdf, id=1353, 569.12625pt x 547.04375pt>
 File: Plots/SysUncRaaperi.pdf Graphic file (type pdf)
 <use Plots/SysUncRaaperi.pdf>
-Package pdftex.def Info: Plots/SysUncRaaperi.pdf  used on input line 639.
+Package pdftex.def Info: Plots/SysUncRaaperi.pdf  used on input line 685.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
- [32] [33 <./Plots/SysUncpp.pdf, page is rotated 90 degrees> <./Plots/SysUncPbP
+ [38] [39 <./Plots/SysUncpp.pdf, page is rotated 90 degrees> <./Plots/SysUncPbP
 bcent.pdf, page is rotated 90 degrees> <./Plots/SysUncPbPbsemi.pdf, page is rot
 ated 90 degrees> <./Plots/SysUncPbPbperi.pdf, page is rotated 90 degrees>]
-Overfull \hbox (8.32857pt too wide) in paragraph at lines 644--646
+Overfull \hbox (8.32857pt too wide) in paragraph at lines 690--692
 \T1/pplx/m/n/12 In pre-vi-ous mea-sure-ments of in-clu-sive charged par-ti-cles
  (cite pa-per), other sources
  []
 
-[34 <./Plots/SysUncRaacent.pdf, page is rotated 90 degrees> <./Plots/SysUncRaas
+[40 <./Plots/SysUncRaacent.pdf, page is rotated 90 degrees> <./Plots/SysUncRaas
 emi.pdf, page is rotated 90 degrees> <./Plots/SysUncRaaperi.pdf, page is rotate
-d 90 degrees>] [35]
-<Plots/diffCrosspp.pdf, id=1644, 569.12625pt x 547.04375pt>
+d 90 degrees>] [41]
+<Plots/diffCrosspp.pdf, id=1687, 569.12625pt x 547.04375pt>
 File: Plots/diffCrosspp.pdf Graphic file (type pdf)
 <use Plots/diffCrosspp.pdf>
-Package pdftex.def Info: Plots/diffCrosspp.pdf  used on input line 686.
+Package pdftex.def Info: Plots/diffCrosspp.pdf  used on input line 732.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
-<Plots/invYieldPbPb.pdf, id=1647, 538.01pt x 739.76375pt>
+<Plots/invYieldPbPb.pdf, id=1690, 538.01pt x 739.76375pt>
 File: Plots/invYieldPbPb.pdf Graphic file (type pdf)
 <use Plots/invYieldPbPb.pdf>
-Package pdftex.def Info: Plots/invYieldPbPb.pdf  used on input line 694.
+Package pdftex.def Info: Plots/invYieldPbPb.pdf  used on input line 740.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
- [36]
+ [42]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 710.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 756.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <7> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 710.
-<Plots/Raa.pdf, id=1656, 569.12625pt x 550.055pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 756.
+<Plots/Raa.pdf, id=1699, 569.12625pt x 550.055pt>
 File: Plots/Raa.pdf Graphic file (type pdf)
 <use Plots/Raa.pdf>
-Package pdftex.def Info: Plots/Raa.pdf  used on input line 731.
+Package pdftex.def Info: Plots/Raa.pdf  used on input line 777.
 (pdftex.def)             Requested size: 341.43306pt x 330.00197pt.
-<Plots/Raatheo.png, id=1657, 845.1575pt x 1108.14pt>
+<Plots/Raatheo.png, id=1700, 845.1575pt x 1108.14pt>
 File: Plots/Raatheo.png Graphic file (type png)
 <use Plots/Raatheo.png>
-Package pdftex.def Info: Plots/Raatheo.png  used on input line 738.
+Package pdftex.def Info: Plots/Raatheo.png  used on input line 784.
 (pdftex.def)             Requested size: 284.52756pt x 373.05959pt.
- [37 <./Plots/diffCrosspp.pdf, page is rotated 90 degrees>] [38 <./Plots/invYie
+ [43 <./Plots/diffCrosspp.pdf, page is rotated 90 degrees>] [44 <./Plots/invYie
 ldPbPb.pdf>]
-Overfull \hbox (0.58023pt too wide) in paragraph at lines 744--745
+Overfull \hbox (0.58023pt too wide) in paragraph at lines 790--791
 []\T1/pplx/b/n/12 Bianchi: \T1/pplx/m/n/12 This model (cite here) de-scribes th
 e pro-duc-tion of high $\OML/zplm/m/it/12 p[]$ \T1/pplx/m/n/12 hadrons
  []
 
-[39] [40 <./Plots/Raa.pdf, page is rotated 90 degrees>] [41 <./Plots/Raatheo.pn
-g>] [42
+[45] [46 <./Plots/Raa.pdf, page is rotated 90 degrees>] [47 <./Plots/Raatheo.pn
+g>] [48
 
 
 ]
 Appendix A.
-[43
+[49
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
  (./Masterarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: E1F8CF5F0F355509686913BE5842B7DF;2545.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 791.
+(rerunfilecheck)             Checksum: 99285947D03EE821A82CB6CBECC1F92B;2623.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 30284 strings out of 492982
- 578543 string characters out of 6134896
- 652089 words of memory out of 5000000
- 33141 multiletter control sequences out of 15000+600000
+ 30313 strings out of 492982
+ 578961 string characters out of 6134896
+ 652353 words of memory out of 5000000
+ 33157 multiletter control sequences out of 15000+600000
  627103 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,93p,10384b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2033,10 +2055,10 @@ blic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx10
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (47 pages, 1081224 bytes).
+Output written on Masterarbeit.pdf (53 pages, 2593145 bytes).
 PDF statistics:
- 1907 PDF objects out of 2073 (max. 8388607)
- 1081 compressed objects within 11 object streams
- 142 named destinations out of 1000 (max. 500000)
- 560 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1954 PDF objects out of 2073 (max. 8388607)
+ 1115 compressed objects within 12 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

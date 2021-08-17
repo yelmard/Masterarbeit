@@ -10,37 +10,37 @@
 \contentsline {section}{\numberline {1.6}Monte Carlo simulations}{5}{section.1.6}
 \contentsline {chapter}{\numberline {2}The ALICE Experiment at CERN}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}The LHC}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}ALICE}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}ITS}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}TPC}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Track reconstruction}{6}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}V0 detectors}{6}{subsection.2.2.4}
-\contentsline {subsubsection}{Centrality determination}{6}{subsection.2.2.4}
-\contentsline {chapter}{\numberline {3}Analysis}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data sample}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Trigger and event selection}{8}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Trigger}{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Selection of events}{9}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Track selection}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Corrections}{10}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Overall normalization}{12}{subsection.3.4.1}
-\contentsline {subsubsection}{Trigger efficiency}{13}{equation.3.4.1}
-\contentsline {subsubsection}{Vertex reconstruction efficiency}{13}{equation.3.4.2}
-\contentsline {subsubsection}{Signal loss correction}{14}{equation.3.4.3}
-\contentsline {subsection}{\numberline {3.4.2}Tracking efficiency and acceptance}{15}{subsection.3.4.2}
-\contentsline {subsubsection}{Particle composition correction}{19}{figure.caption.12}
-\contentsline {subsection}{\numberline {3.4.3}Contamination by secondary particles}{20}{subsection.3.4.3}
-\contentsline {subsubsection}{Secondary scaling}{21}{figure.caption.14}
-\contentsline {subsection}{\numberline {3.4.4}Transverse momentum resolution}{25}{subsection.3.4.4}
-\contentsline {subsubsection}{Calculation of the correction factor}{28}{equation.3.4.12}
-\contentsline {section}{\numberline {3.5}Implementation of the corrections}{30}{section.3.5}
-\contentsline {section}{\numberline {3.6}Systematic uncertainties}{31}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Track selection}{31}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Other sources}{34}{subsection.3.6.2}
-\contentsline {section}{\numberline {3.7}Results}{36}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Differential cross section in pp collisions}{36}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Invariant yield in Pb-Pb collisions}{36}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Nuclear modification factors}{36}{subsection.3.7.3}
-\contentsline {chapter}{Appendices}{42}{section*.32}
-\contentsline {chapter}{\numberline {A}Appendix}{43}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Tracking efficiency}{43}{section.1.A.1}
+\contentsline {section}{\numberline {2.2}ALICE}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}ITS}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}TPC}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}V0 detectors}{12}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Track reconstruction}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Centrality determination}{12}{subsection.2.2.5}
+\contentsline {chapter}{\numberline {3}Analysis}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data sample}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Trigger and event selection}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Trigger}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Selection of events}{15}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Track selection}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Corrections}{16}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Overall normalization}{18}{subsection.3.4.1}
+\contentsline {subsubsection}{Trigger efficiency}{19}{equation.3.4.1}
+\contentsline {subsubsection}{Vertex reconstruction efficiency}{19}{equation.3.4.2}
+\contentsline {subsubsection}{Signal loss correction}{20}{equation.3.4.3}
+\contentsline {subsection}{\numberline {3.4.2}Tracking efficiency and acceptance}{21}{subsection.3.4.2}
+\contentsline {subsubsection}{Particle composition correction}{25}{figure.caption.15}
+\contentsline {subsection}{\numberline {3.4.3}Contamination by secondary particles}{26}{subsection.3.4.3}
+\contentsline {subsubsection}{Secondary scaling}{27}{figure.caption.17}
+\contentsline {subsection}{\numberline {3.4.4}Transverse momentum resolution}{31}{subsection.3.4.4}
+\contentsline {subsubsection}{Calculation of the correction factor}{34}{equation.3.4.12}
+\contentsline {section}{\numberline {3.5}Implementation of the corrections}{36}{section.3.5}
+\contentsline {section}{\numberline {3.6}Systematic uncertainties}{37}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Track selection}{37}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Other sources}{40}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Results}{42}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Differential cross section in pp collisions}{42}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Invariant yield in Pb-Pb collisions}{42}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Nuclear modification factors}{42}{subsection.3.7.3}
+\contentsline {chapter}{Appendices}{48}{section*.35}
+\contentsline {chapter}{\numberline {A}Appendix}{49}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Tracking efficiency}{49}{section.1.A.1}
