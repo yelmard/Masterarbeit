@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  18 AUG 2021 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.2)  4 SEP 2021 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,6 +520,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box28
 \@float@everytoks=\toks25
 \@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
@@ -1402,31 +1405,31 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-Package hyperref Info: Option `colorlinks' set `false' on input line 68.
+Package hyperref Info: Option `colorlinks' set `false' on input line 69.
  (./Masterarbeit.aux)
 \openout1 = `Masterarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 75.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
@@ -1503,7 +1506,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 76.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1512,9 +1515,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (./Masterarbeit.out) (./Masterarbeit.out)
 \@outlinefile=\write4
@@ -1525,60 +1528,60 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 111.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 111
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 111
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 111
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 111
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 111.
+(Font)              scaled to size 25.92514pt on input line 112.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 111.
+(Font)              scaled to size 21.61124pt on input line 112.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 111.
+(Font)              scaled to size 15.0049pt on input line 112.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 111.
+(Font)              scaled to size 25.92514pt on input line 112.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 111.
+(Font)              scaled to size 21.61124pt on input line 112.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 111.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 111
+(Font)              scaled to size 15.0049pt on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 111.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 111.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 113.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 114.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 135.
  (./Masterarbeit.toc
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 5.
@@ -1604,440 +1607,462 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \chapter
+l.149 \chapter
               {Introduction} [1
 
-]
+] [2] [3]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 158.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 163.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 158.
+(Font)              scaled to size 10.42007pt on input line 163.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 158.
+(Font)              scaled to size 7.91925pt on input line 163.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 158.
+(Font)              scaled to size 6.25204pt on input line 163.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 158.
+(Font)              scaled to size 10.42007pt on input line 163.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 158.
+(Font)              scaled to size 7.91925pt on input line 163.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 158.
-
-Overfull \hbox (21.9218pt too wide) in paragraph at lines 158--158
-[]
- []
-
-LaTeX Font Info:    Calculating math sizes for size <40> on input line 158.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 41.6803pt on input line 158.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 31.67679pt on input line 158.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.00842pt on input line 158.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 41.6803pt on input line 158.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 31.67679pt on input line 158.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.00842pt on input line 158.
-
-Overfull \hbox (21.9218pt too wide) in paragraph at lines 159--159
-[]
- []
-
-
-Overfull \hbox (21.9218pt too wide) in paragraph at lines 160--160
-[]
- []
-
-
-Overfull \hbox (21.9218pt too wide) in paragraph at lines 161--161
-[]
- []
-
-
-Overfull \hbox (21.9218pt too wide) in paragraph at lines 162--162
-[]
- []
-
+(Font)              scaled to size 6.25204pt on input line 163.
 
 Overfull \hbox (21.9218pt too wide) in paragraph at lines 163--163
 []
  []
 
+LaTeX Font Info:    Calculating math sizes for size <40> on input line 163.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 41.6803pt on input line 163.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 31.67679pt on input line 163.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 25.00842pt on input line 163.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 41.6803pt on input line 163.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 31.67679pt on input line 163.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 25.00842pt on input line 163.
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 165--165
+Overfull \hbox (21.9218pt too wide) in paragraph at lines 164--164
 []
  []
 
 
-Overfull \hbox (1.08408pt too wide) in paragraph at lines 165--165
+Overfull \hbox (21.9218pt too wide) in paragraph at lines 165--165
+[]
+ []
+
+
+Overfull \hbox (21.9218pt too wide) in paragraph at lines 166--166
+[]
+ []
+
+
+Overfull \hbox (21.9218pt too wide) in paragraph at lines 167--167
+[]
+ []
+
+
+Overfull \hbox (21.9218pt too wide) in paragraph at lines 168--168
+[]
+ []
+
+
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 170--170
+[]
+ []
+
+
+Overfull \hbox (1.08408pt too wide) in paragraph at lines 170--170
  []$[][]$ 
  []
 
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 166--166
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 171--171
 []
  []
 
 
-Overfull \hbox (6.98132pt too wide) in paragraph at lines 166--166
+Overfull \hbox (6.98132pt too wide) in paragraph at lines 171--171
  []$[][]$ 
  []
 
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 167--167
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 172--172
 []
  []
 
 
-Overfull \hbox (5.94772pt too wide) in paragraph at lines 167--167
+Overfull \hbox (5.94772pt too wide) in paragraph at lines 172--172
  []$[][]$ 
  []
 
 
-Overfull \hbox (16.6824pt too wide) in paragraph at lines 169--169
+Overfull \hbox (16.6824pt too wide) in paragraph at lines 174--174
 []
  []
 
 
-Overfull \hbox (16.6824pt too wide) in paragraph at lines 170--170
+Overfull \hbox (16.6824pt too wide) in paragraph at lines 175--175
 []
  []
 
 
-Overfull \hbox (16.6824pt too wide) in paragraph at lines 171--171
+Overfull \hbox (16.6824pt too wide) in paragraph at lines 176--176
 []
  []
 
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 173--173
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 178--178
 []
  []
 
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 174--174
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 179--179
 []
  []
 
 
-Overfull \hbox (8.33252pt too wide) in paragraph at lines 175--175
+Overfull \hbox (8.33252pt too wide) in paragraph at lines 180--180
 []
  []
 
 
-Overfull \hbox (16.68118pt too wide) in paragraph at lines 176--176
+Overfull \hbox (16.68118pt too wide) in paragraph at lines 181--181
 []
  []
 
 
-Overfull \hbox (8.27823pt too wide) in paragraph at lines 176--176
+Overfull \hbox (8.27823pt too wide) in paragraph at lines 181--181
  []$[]$ 
  []
 
-[2
+[4
 
-] [3] [4]
+] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 190.
+(Font)              scaled to size 18.00587pt on input line 202.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 190.
+(Font)              scaled to size 18.00587pt on input line 202.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 190.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 202.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 190.
+(hyperref)                removing `subscript' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 190.
+(hyperref)                removing `math shift' on input line 202.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 190.
-
-[5]
+[7]
 Chapter 2.
-[6
+[8
 
 ]
-<Plots/LHC.png, id=317, 2184.16pt x 1189.44376pt>
+<Plots/LHC.png, id=331, 2184.16pt x 1189.44376pt>
 File: Plots/LHC.png Graphic file (type png)
 <use Plots/LHC.png>
-Package pdftex.def Info: Plots/LHC.png  used on input line 211.
+Package pdftex.def Info: Plots/LHC.png  used on input line 221.
 (pdftex.def)             Requested size: 341.43306pt x 185.92273pt.
-<Plots/Alice.png, id=320, 1927.2pt x 1104.125pt>
+<Plots/Alice.png, id=334, 1927.2pt x 1104.125pt>
 File: Plots/Alice.png Graphic file (type png)
 <use Plots/Alice.png>
-Package pdftex.def Info: Plots/Alice.png  used on input line 225.
+Package pdftex.def Info: Plots/Alice.png  used on input line 235.
 (pdftex.def)             Requested size: 426.79134pt x 244.50877pt.
- [7 <./Plots/LHC.png>] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 231--236
-
- []
-
-[9 <./Plots/Alice.png>]
-<Plots/ALICETPC.png, id=340, 708.6475pt x 541.02126pt>
+ [9 <./Plots/LHC.png>] [10] [11 <./Plots/Alice.png>]
+<Plots/ALICETPC.png, id=355, 708.6475pt x 541.02126pt>
 File: Plots/ALICETPC.png Graphic file (type png)
 <use Plots/ALICETPC.png>
-Package pdftex.def Info: Plots/ALICETPC.png  used on input line 246.
-(pdftex.def)             Requested size: 341.43306pt x 260.66963pt.
- [10] [11 <./Plots/ALICETPC.png>] [12]
-Chapter 3.
-[13
+Package pdftex.def Info: Plots/ALICETPC.png  used on input line 256.
+(pdftex.def)             Requested size: 312.9803pt x 238.9499pt.
+<Plots/MWPC.png, id=356, 801.99625pt x 609.27625pt>
+File: Plots/MWPC.png Graphic file (type png)
+<use Plots/MWPC.png>
+Package pdftex.def Info: Plots/MWPC.png  used on input line 262.
+(pdftex.def)             Requested size: 256.0748pt x 194.54472pt.
+ [12] [13 <./Plots/ALICETPC.png> <./Plots/MWPC.png>]
+<Plots/EventRecFlow.png, id=369, 2086.79625pt x 831.105pt>
+File: Plots/EventRecFlow.png Graphic file (type png)
+<use Plots/EventRecFlow.png>
+Package pdftex.def Info: Plots/EventRecFlow.png  used on input line 276.
+(pdftex.def)             Requested size: 398.33858pt x 158.63445pt.
+ [14] [15 <./Plots/EventRecFlow.png>] [16]
+<Plots/Sagitta.png, id=392, 1204.5pt x 643.40375pt>
+File: Plots/Sagitta.png Graphic file (type png)
+<use Plots/Sagitta.png>
+Package pdftex.def Info: Plots/Sagitta.png  used on input line 301.
+(pdftex.def)             Requested size: 199.16928pt x 106.38283pt.
+<Plots/V0Amplitude.png, id=394, 1018.80624pt x 657.45625pt>
+File: Plots/V0Amplitude.png Graphic file (type png)
+<use Plots/V0Amplitude.png>
+Package pdftex.def Info: Plots/V0Amplitude.png  used on input line 321.
+(pdftex.def)             Requested size: 341.43306pt x 220.33197pt.
 
-] [14]
-<Plots/fiducialAcc.png, id=366, 934.49126pt x 640.3925pt>
-File: Plots/fiducialAcc.png Graphic file (type png)
-<use Plots/fiducialAcc.png>
-Package pdftex.def Info: Plots/fiducialAcc.png  used on input line 291.
-(pdftex.def)             Requested size: 341.43306pt x 233.98071pt.
- [15 <./Plots/fiducialAcc.png>]
-<Plots/uncorrectedSpectra.pdf, id=376, 538.01pt x 739.76375pt>
-File: Plots/uncorrectedSpectra.pdf Graphic file (type pdf)
-<use Plots/uncorrectedSpectra.pdf>
-Package pdftex.def Info: Plots/uncorrectedSpectra.pdf  used on input line 371.
-(pdftex.def)             Requested size: 284.52756pt x 391.22632pt.
-
-Overfull \hbox (5.46552pt too wide) in paragraph at lines 375--378
-\T1/pplx/m/n/12 In Fig-ure []3.2[], the un-cor-rected $\OML/zplm/m/it/12 p[]$ \
-T1/pplx/m/n/12 de-pen-dent dis-tri-bu-tions of the pro-duced charged
+Underfull \hbox (badness 1237) in paragraph at lines 322--322
+[]\T1/pplx/m/n/12 Figure 2.7: |Mul-ti-plic-ity dis-tri-bu-tion mea-sured with t
+he V0M ar-ray and
  []
 
-LaTeX Font Info:    Try loading font information for TS1+pplx on input line 379
-.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
-File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-) [16] [17] [18 <./Plots/uncorrectedSpectra.pdf>] [19]
-<Plots/signalLossFAST.pdf, id=445, 569.12625pt x 547.04375pt>
-File: Plots/signalLossFAST.pdf Graphic file (type pdf)
-<use Plots/signalLossFAST.pdf>
-Package pdftex.def Info: Plots/signalLossFAST.pdf  used on input line 424.
+[17 <./Plots/Sagitta.png>] [18] [19 <./Plots/V0Amplitude.png>]
+Chapter 3.
+[20
+
+] [21]
+<Plots/fiducialAcc.png, id=424, 934.49126pt x 640.3925pt>
+File: Plots/fiducialAcc.png Graphic file (type png)
+<use Plots/fiducialAcc.png>
+Package pdftex.def Info: Plots/fiducialAcc.png  used on input line 360.
+(pdftex.def)             Requested size: 341.43306pt x 233.98071pt.
+ [22 <./Plots/fiducialAcc.png>] [23]
+<Plots/uncorrectedSpectra.pdf, id=440, 538.01pt x 739.76375pt>
+File: Plots/uncorrectedSpectra.pdf Graphic file (type pdf)
+<use Plots/uncorrectedSpectra.pdf>
+Package pdftex.def Info: Plots/uncorrectedSpectra.pdf  used on input line 441.
+(pdftex.def)             Requested size: 369.88582pt x 508.59761pt.
+ [24] [25 <./Plots/uncorrectedSpectra.pdf>]
+<Plots/signalLoss.pdf, id=498, 569.12625pt x 547.04375pt>
+File: Plots/signalLoss.pdf Graphic file (type pdf)
+<use Plots/signalLoss.pdf>
+Package pdftex.def Info: Plots/signalLoss.pdf  used on input line 487.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [20 <./Plots/signalLossFAST.pdf, page is rotated 90 degrees>]
-<Plots/trckEffpp.pdf, id=497, 569.12625pt x 547.04375pt>
+ [26]
+<Plots/trckEffpp.pdf, id=506, 538.01pt x 739.76375pt>
 File: Plots/trckEffpp.pdf Graphic file (type pdf)
 <use Plots/trckEffpp.pdf>
-Package pdftex.def Info: Plots/trckEffpp.pdf  used on input line 437.
-(pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [21 <./Plots/trckEffpp.pdf, page is rotated 90 degrees>]
-<Plots/trckEffPbPb1.pdf, id=547, 538.01pt x 739.76375pt>
+Package pdftex.def Info: Plots/trckEffpp.pdf  used on input line 500.
+(pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
+ [27 <./Plots/signalLoss.pdf, page is rotated 90 degrees>]
+[28 <./Plots/trckEffpp.pdf>]
+<Plots/trckEffPbPb1.pdf, id=605, 538.01pt x 739.76375pt>
 File: Plots/trckEffPbPb1.pdf Graphic file (type pdf)
 <use Plots/trckEffPbPb1.pdf>
-Package pdftex.def Info: Plots/trckEffPbPb1.pdf  used on input line 451.
+Package pdftex.def Info: Plots/trckEffPbPb1.pdf  used on input line 514.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
-<Plots/trckEffPbPb2.pdf, id=552, 538.01pt x 739.76375pt>
+<Plots/trckEffPbPb2.pdf, id=610, 538.01pt x 739.76375pt>
 File: Plots/trckEffPbPb2.pdf Graphic file (type pdf)
 <use Plots/trckEffPbPb2.pdf>
-Package pdftex.def Info: Plots/trckEffPbPb2.pdf  used on input line 479.
+Package pdftex.def Info: Plots/trckEffPbPb2.pdf  used on input line 542.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
-
-[22] [23 <./Plots/trckEffPbPb1.pdf>]
-<Plots/5TeVMonash13_TrkEff_without-91972.pdf, id=614, 569.12625pt x 550.055pt>
+ [29] [30 <./Plots/trckEffPbPb1.pdf>]
+<Plots/5TeVMonash13_TrkEff_without-91972.pdf, id=673, 569.12625pt x 550.055pt>
 File: Plots/5TeVMonash13_TrkEff_without-91972.pdf Graphic file (type pdf)
 <use Plots/5TeVMonash13_TrkEff_without-91972.pdf>
 Package pdftex.def Info: Plots/5TeVMonash13_TrkEff_without-91972.pdf  used on i
-nput line 488.
+nput line 551.
 (pdftex.def)             Requested size: 211.25961pt x 204.18022pt.
-<Plots/5TeVMonash13_Abundances-91973.pdf, id=615, 569.12625pt x 550.055pt>
+<Plots/5TeVMonash13_Abundances-91973.pdf, id=674, 569.12625pt x 550.055pt>
 File: Plots/5TeVMonash13_Abundances-91973.pdf Graphic file (type pdf)
 <use Plots/5TeVMonash13_Abundances-91973.pdf>
 Package pdftex.def Info: Plots/5TeVMonash13_Abundances-91973.pdf  used on input
- line 489.
+ line 552.
 (pdftex.def)             Requested size: 211.25961pt x 204.18022pt.
- [24 <./Plots/trckEffPbPb2.pdf>] [25 <./Plots/5TeVMonash13_TrkEff_without-91972
+ [31 <./Plots/trckEffPbPb2.pdf>] [32 <./Plots/5TeVMonash13_TrkEff_without-91972
 .pdf, page is rotated 90 degrees> <./Plots/5TeVMonash13_Abundances-91973.pdf, p
 age is rotated 90 degrees>]
-<Plots/secCont.pdf, id=764, 569.12625pt x 547.04375pt>
+<Plots/secCont.pdf, id=822, 569.12625pt x 547.04375pt>
 File: Plots/secCont.pdf Graphic file (type pdf)
 <use Plots/secCont.pdf>
-Package pdftex.def Info: Plots/secCont.pdf  used on input line 502.
+Package pdftex.def Info: Plots/secCont.pdf  used on input line 565.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [26]
-<Plots/DCAdistributions.pdf, id=770, 569.12625pt x 547.04375pt>
+ [33]
+<Plots/DCAdistributions.pdf, id=829, 569.12625pt x 547.04375pt>
 File: Plots/DCAdistributions.pdf Graphic file (type pdf)
 <use Plots/DCAdistributions.pdf>
-Package pdftex.def Info: Plots/DCAdistributions.pdf  used on input line 510.
+Package pdftex.def Info: Plots/DCAdistributions.pdf  used on input line 573.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
 
-Overfull \hbox (3.51262pt too wide) in paragraph at lines 514--518
+Overfull \hbox (3.51262pt too wide) in paragraph at lines 580--587
 \T1/pplx/m/n/12 In the up-per panel of Fig-ure []3.9[], the DCA$[]$ dis-tri-bu-
 tion for pp col-li-sions recorded
  []
 
-[27 <./Plots/secCont.pdf, page is rotated 90 degrees>] [28 <./Plots/DCAdistribu
+[34 <./Plots/secCont.pdf, page is rotated 90 degrees>] [35 <./Plots/DCAdistribu
 tions.pdf, page is rotated 90 degrees>]
-<Plots/secscalingfactors.pdf, id=869, 569.12625pt x 547.04375pt>
-File: Plots/secscalingfactors.pdf Graphic file (type pdf)
-<use Plots/secscalingfactors.pdf>
-Package pdftex.def Info: Plots/secscalingfactors.pdf  used on input line 524.
-(pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
- [29 <./Plots/secscalingfactors.pdf, page is rotated 90 degrees>]
-<Plots/Pulls_Pt0_Mult0.pdf, id=923, 569.12625pt x 547.04375pt>
+<Plots/Pulls_Pt0_Mult0.pdf, id=931, 569.12625pt x 547.04375pt>
 File: Plots/Pulls_Pt0_Mult0.pdf Graphic file (type pdf)
 <use Plots/Pulls_Pt0_Mult0.pdf>
-Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 537.
+Package pdftex.def Info: Plots/Pulls_Pt0_Mult0.pdf  used on input line 593.
 (pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
- [30 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>]
-<Plots/Sagitta.png, id=974, 1204.5pt x 643.40375pt>
-File: Plots/Sagitta.png Graphic file (type png)
-<use Plots/Sagitta.png>
-Package pdftex.def Info: Plots/Sagitta.png  used on input line 558.
-(pdftex.def)             Requested size: 199.16928pt x 106.38283pt.
-<Plots/ptReso2D.pdf, id=975, 569.12625pt x 550.055pt>
+<Plots/secscalingfactors.pdf, id=934, 569.12625pt x 547.04375pt>
+File: Plots/secscalingfactors.pdf Graphic file (type pdf)
+<use Plots/secscalingfactors.pdf>
+Package pdftex.def Info: Plots/secscalingfactors.pdf  used on input line 600.
+(pdftex.def)             Requested size: 312.9803pt x 300.84995pt.
+ [36]
+<Plots/ptReso2D.pdf, id=942, 569.12625pt x 550.055pt>
 File: Plots/ptReso2D.pdf Graphic file (type pdf)
 <use Plots/ptReso2D.pdf>
-Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 568.
+Package pdftex.def Info: Plots/ptReso2D.pdf  used on input line 608.
 (pdftex.def)             Requested size: 341.43306pt x 330.00197pt.
-<Plots/ptReso1D.pdf, id=976, 569.12625pt x 552.0625pt>
+<Plots/ptReso1D.pdf, id=943, 569.12625pt x 552.0625pt>
 File: Plots/ptReso1D.pdf Graphic file (type pdf)
 <use Plots/ptReso1D.pdf>
-Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 574.
+Package pdftex.def Info: Plots/ptReso1D.pdf  used on input line 614.
 (pdftex.def)             Requested size: 341.43306pt x 331.20634pt.
- [31 <./Plots/Sagitta.png>] [32 <./Plots/ptReso2D.pdf, page is rotated 90 degre
-es>] [33 <./Plots/ptReso1D.pdf, page is rotated 90 degrees>]
-<Plots/reso2dim.pdf, id=1089, 569.12625pt x 547.04375pt>
+ [37 <./Plots/Pulls_Pt0_Mult0.pdf, page is rotated 90 degrees>] [38 <./Plots/se
+cscalingfactors.pdf, page is rotated 90 degrees>]
+<Plots/reso2dim.pdf, id=1046, 569.12625pt x 547.04375pt>
 File: Plots/reso2dim.pdf Graphic file (type pdf)
 <use Plots/reso2dim.pdf>
-Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 588.
+Package pdftex.def Info: Plots/reso2dim.pdf  used on input line 629.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/fitfunc.pdf, id=1090, 569.12625pt x 547.04375pt>
+<Plots/fitfunc.pdf, id=1047, 569.12625pt x 547.04375pt>
 File: Plots/fitfunc.pdf Graphic file (type pdf)
 <use Plots/fitfunc.pdf>
-Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 589.
+Package pdftex.def Info: Plots/fitfunc.pdf  used on input line 630.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/scaledcov.pdf, id=1091, 569.12625pt x 547.04375pt>
+<Plots/scaledcov.pdf, id=1048, 569.12625pt x 547.04375pt>
 File: Plots/scaledcov.pdf Graphic file (type pdf)
 <use Plots/scaledcov.pdf>
-Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 590.
+Package pdftex.def Info: Plots/scaledcov.pdf  used on input line 631.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/probabilitydist.pdf, id=1092, 569.12625pt x 547.04375pt>
+<Plots/probabilitydist.pdf, id=1049, 569.12625pt x 547.04375pt>
 File: Plots/probabilitydist.pdf Graphic file (type pdf)
 <use Plots/probabilitydist.pdf>
-Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 591.
+Package pdftex.def Info: Plots/probabilitydist.pdf  used on input line 632.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/ptrescorrppPbPb.pdf, id=1093, 569.12625pt x 547.04375pt>
+<Plots/ptrescorrppPbPb.pdf, id=1050, 569.12625pt x 547.04375pt>
 File: Plots/ptrescorrppPbPb.pdf Graphic file (type pdf)
 <use Plots/ptrescorrppPbPb.pdf>
-Package pdftex.def Info: Plots/ptrescorrppPbPb.pdf  used on input line 597.
+Package pdftex.def Info: Plots/ptrescorrppPbPb.pdf  used on input line 638.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
- [34 <./Plots/reso2dim.pdf, page is rotated 90 degrees> <./Plots/fitfunc.pdf, p
-age is rotated 90 degrees> <./Plots/scaledcov.pdf, page is rotated 90 degrees> 
-<./Plots/probabilitydist.pdf, page is rotated 90 degrees>] [35 <./Plots/ptresco
-rrppPbPb.pdf, page is rotated 90 degrees>] [36]
-<Plots/SysUncpp.pdf, id=1339, 569.12625pt x 547.04375pt>
+ [39 <./Plots/ptReso2D.pdf, page is rotated 90 degrees>] [40 <./Plots/ptReso1D.
+pdf, page is rotated 90 degrees>] [41 <./Plots/reso2dim.pdf, page is rotated 90
+ degrees> <./Plots/fitfunc.pdf, page is rotated 90 degrees> <./Plots/scaledcov.
+pdf, page is rotated 90 degrees> <./Plots/probabilitydist.pdf, page is rotated 
+90 degrees>] [42 <./Plots/ptrescorrppPbPb.pdf, page is rotated 90 degrees>]
+<Plots/SysUncpp.pdf, id=1385, 569.12625pt x 547.04375pt>
 File: Plots/SysUncpp.pdf Graphic file (type pdf)
 <use Plots/SysUncpp.pdf>
-Package pdftex.def Info: Plots/SysUncpp.pdf  used on input line 674.
+Package pdftex.def Info: Plots/SysUncpp.pdf  used on input line 672.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbcent.pdf, id=1340, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbcent.pdf, id=1386, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbcent.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbcent.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbcent.pdf  used on input line 675.
+Package pdftex.def Info: Plots/SysUncPbPbcent.pdf  used on input line 673.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbsemi.pdf, id=1341, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbsemi.pdf, id=1387, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbsemi.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbsemi.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbsemi.pdf  used on input line 676.
+Package pdftex.def Info: Plots/SysUncPbPbsemi.pdf  used on input line 674.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncPbPbperi.pdf, id=1342, 569.12625pt x 547.04375pt>
+<Plots/SysUncPbPbperi.pdf, id=1388, 569.12625pt x 547.04375pt>
 File: Plots/SysUncPbPbperi.pdf Graphic file (type pdf)
 <use Plots/SysUncPbPbperi.pdf>
-Package pdftex.def Info: Plots/SysUncPbPbperi.pdf  used on input line 677.
+Package pdftex.def Info: Plots/SysUncPbPbperi.pdf  used on input line 675.
+(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
+<Plots/SysUncRaacent.pdf, id=1389, 569.12625pt x 547.04375pt>
+File: Plots/SysUncRaacent.pdf Graphic file (type pdf)
+<use Plots/SysUncRaacent.pdf>
+Package pdftex.def Info: Plots/SysUncRaacent.pdf  used on input line 681.
+(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
+<Plots/SysUncRaasemi.pdf, id=1390, 569.12625pt x 547.04375pt>
+File: Plots/SysUncRaasemi.pdf Graphic file (type pdf)
+<use Plots/SysUncRaasemi.pdf>
+Package pdftex.def Info: Plots/SysUncRaasemi.pdf  used on input line 682.
+(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
+<Plots/SysUncRaaperi.pdf, id=1391, 569.12625pt x 547.04375pt>
+File: Plots/SysUncRaaperi.pdf Graphic file (type pdf)
+<use Plots/SysUncRaaperi.pdf>
+Package pdftex.def Info: Plots/SysUncRaaperi.pdf  used on input line 683.
 (pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
 
-Overfull \hbox (0.15663pt too wide) in paragraph at lines 633--680
+Overfull \hbox (0.15663pt too wide) in paragraph at lines 690--728
 \T1/pplx/m/n/12 To de-ter-mine the in-di-vid-ual con-tri-bu-tions, each nom-i-n
 al track re-quire-ment listed
  []
 
-[37]
-<Plots/SysUncRaacent.pdf, id=1351, 569.12625pt x 547.04375pt>
-File: Plots/SysUncRaacent.pdf Graphic file (type pdf)
-<use Plots/SysUncRaacent.pdf>
-Package pdftex.def Info: Plots/SysUncRaacent.pdf  used on input line 683.
-(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncRaasemi.pdf, id=1352, 569.12625pt x 547.04375pt>
-File: Plots/SysUncRaasemi.pdf Graphic file (type pdf)
-<use Plots/SysUncRaasemi.pdf>
-Package pdftex.def Info: Plots/SysUncRaasemi.pdf  used on input line 684.
-(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
-<Plots/SysUncRaaperi.pdf, id=1353, 569.12625pt x 547.04375pt>
-File: Plots/SysUncRaaperi.pdf Graphic file (type pdf)
-<use Plots/SysUncRaaperi.pdf>
-Package pdftex.def Info: Plots/SysUncRaaperi.pdf  used on input line 685.
-(pdftex.def)             Requested size: 211.25961pt x 203.06244pt.
- [38] [39 <./Plots/SysUncpp.pdf, page is rotated 90 degrees> <./Plots/SysUncPbP
-bcent.pdf, page is rotated 90 degrees> <./Plots/SysUncPbPbsemi.pdf, page is rot
-ated 90 degrees> <./Plots/SysUncPbPbperi.pdf, page is rotated 90 degrees>]
-Overfull \hbox (8.32857pt too wide) in paragraph at lines 690--692
+[43] [44 <./Plots/SysUncpp.pdf, page is rotated 90 degrees> <./Plots/SysUncPbPb
+cent.pdf, page is rotated 90 degrees> <./Plots/SysUncPbPbsemi.pdf, page is rota
+ted 90 degrees> <./Plots/SysUncPbPbperi.pdf, page is rotated 90 degrees>]
+[45 <./Plots/SysUncRaacent.pdf, page is rotated 90 degrees> <./Plots/SysUncRaas
+emi.pdf, page is rotated 90 degrees> <./Plots/SysUncRaaperi.pdf, page is rotate
+d 90 degrees>]
+Overfull \hbox (8.32857pt too wide) in paragraph at lines 730--731
 \T1/pplx/m/n/12 In pre-vi-ous mea-sure-ments of in-clu-sive charged par-ti-cles
  (cite pa-per), other sources
  []
 
-[40 <./Plots/SysUncRaacent.pdf, page is rotated 90 degrees> <./Plots/SysUncRaas
-emi.pdf, page is rotated 90 degrees> <./Plots/SysUncRaaperi.pdf, page is rotate
-d 90 degrees>] [41]
-<Plots/diffCrosspp.pdf, id=1687, 569.12625pt x 547.04375pt>
+LaTeX Font Info:    Try loading font information for TS1+pplx on input line 732
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+) [46] [47]
+<Plots/diffCrosspp.pdf, id=1735, 569.12625pt x 547.04375pt>
 File: Plots/diffCrosspp.pdf Graphic file (type pdf)
 <use Plots/diffCrosspp.pdf>
-Package pdftex.def Info: Plots/diffCrosspp.pdf  used on input line 732.
+Package pdftex.def Info: Plots/diffCrosspp.pdf  used on input line 772.
 (pdftex.def)             Requested size: 341.43306pt x 328.19539pt.
-<Plots/invYieldPbPb.pdf, id=1690, 538.01pt x 739.76375pt>
+<Plots/invYieldPbPb.pdf, id=1738, 538.01pt x 739.76375pt>
 File: Plots/invYieldPbPb.pdf Graphic file (type pdf)
 <use Plots/invYieldPbPb.pdf>
-Package pdftex.def Info: Plots/invYieldPbPb.pdf  used on input line 740.
+Package pdftex.def Info: Plots/invYieldPbPb.pdf  used on input line 780.
 (pdftex.def)             Requested size: 341.43306pt x 469.47385pt.
- [42]
+ [48]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 756.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 796.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <7> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 756.
-<Plots/Raa.pdf, id=1699, 569.12625pt x 550.055pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 796.
+<Plots/Raa.pdf, id=1747, 569.12625pt x 550.055pt>
 File: Plots/Raa.pdf Graphic file (type pdf)
 <use Plots/Raa.pdf>
-Package pdftex.def Info: Plots/Raa.pdf  used on input line 777.
-(pdftex.def)             Requested size: 341.43306pt x 330.00197pt.
-<Plots/Raatheo.png, id=1700, 845.1575pt x 1108.14pt>
-File: Plots/Raatheo.png Graphic file (type png)
-<use Plots/Raatheo.png>
-Package pdftex.def Info: Plots/Raatheo.png  used on input line 784.
-(pdftex.def)             Requested size: 284.52756pt x 373.05959pt.
- [43 <./Plots/diffCrosspp.pdf, page is rotated 90 degrees>] [44 <./Plots/invYie
-ldPbPb.pdf>]
-Overfull \hbox (0.58023pt too wide) in paragraph at lines 790--791
-[]\T1/pplx/b/n/12 Bianchi: \T1/pplx/m/n/12 This model (cite here) de-scribes th
-e pro-duc-tion of high $\OML/zplm/m/it/12 p[]$ \T1/pplx/m/n/12 hadrons
+Package pdftex.def Info: Plots/Raa.pdf  used on input line 817.
+(pdftex.def)             Requested size: 441.01772pt x 426.25464pt.
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 817--818
+ [][] 
  []
 
-[45] [46 <./Plots/Raa.pdf, page is rotated 90 degrees>] [47 <./Plots/Raatheo.pn
-g>] [48
+<Plots/Raatheo.png, id=1748, 629.35126pt x 1253.68375pt>
+File: Plots/Raatheo.png Graphic file (type png)
+<use Plots/Raatheo.png>
+Package pdftex.def Info: Plots/Raatheo.png  used on input line 824.
+(pdftex.def)             Requested size: 284.52756pt x 566.77324pt.
+[49 <./Plots/diffCrosspp.pdf, page is rotated 90 degrees>] [50 <./Plots/invYiel
+dPbPb.pdf>] [51] [52 <./Plots/Raa.pdf, page is rotated 90 degrees>] [53 <./Plot
+s/Raatheo.png>] [54]
+Chapter 4.
+[55
+
+] [56
 
 
 ]
 Appendix A.
-[49
+[57
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 879.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 879.
  (./Masterarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 879.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 879.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 99285947D03EE821A82CB6CBECC1F92B;2623.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
+(rerunfilecheck)             Checksum: DA8B3E9D1423B7164338A1036FDF3C2C;2706.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 879.
  ) 
 Here is how much of TeX's memory you used:
- 30313 strings out of 492982
- 578961 string characters out of 6134896
- 652353 words of memory out of 5000000
- 33157 multiletter control sequences out of 15000+600000
+ 30353 strings out of 492982
+ 579735 string characters out of 6134896
+ 652510 words of memory out of 5000000
+ 33188 multiletter control sequences out of 15000+600000
  627103 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,93p,10384b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2055,10 +2080,10 @@ blic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx10
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (53 pages, 2593145 bytes).
+Output written on Masterarbeit.pdf (61 pages, 2891588 bytes).
 PDF statistics:
- 1954 PDF objects out of 2073 (max. 8388607)
- 1115 compressed objects within 12 object streams
- 152 named destinations out of 1000 (max. 500000)
- 583 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2006 PDF objects out of 2073 (max. 8388607)
+ 1153 compressed objects within 12 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
 
